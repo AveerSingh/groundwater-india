@@ -1,5 +1,7 @@
 # India Groundwater Quality & Monitoring Map
 
+Live site: https://aveersingh.github.io/groundwater-india/
+
 **Where in India is groundwater unsafe to drink, how much of it has anyone actually tested, and who is supposed to act?**
 
 Built from CGWB's full groundwater-quality station tables for 2019–2024, including wells that did *not* exceed a limit. That denominator is what lets this project report exceedance as "x of y monitored wells" and map where nobody has looked.

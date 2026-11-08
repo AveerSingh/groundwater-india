@@ -62,5 +62,6 @@
 - Geometry re-tuned (0.003° on a 1e4 grid): 172 KB gzipped, more faithful than before. `districts.json` slimmed to first-paint fields (17 KB); the rest moved to `d/`.
 - `08_export.py` writes the page's no-JS numbers and trend table into `index.html` and adds parameter labels.
 - `tests/test_site.py`: static numbers match the data, no external resources, vendored hashes, JS parses, editorial wording. Validation checks 3 and 11 now read the per-district files too.
-- Not yet: deployment to GitHub Pages (the M3 gate), the method and downloads pages (M6), the authorities layer (M5), a throttled Slow 3G measurement.
+- Not yet: the method and downloads pages (M6), the authorities layer (M5), a throttled Slow 3G measurement.
 - Public release: the ESRI DGWR layer is no longer committed; `data/external/dgwr/` holds CGWB's figures and the derived 2011 area weights (covariates.csv unchanged byte for byte). GitHub Pages deploys via Actions from a fresh pipeline run; generated `site/data/` is not committed.
+- Live at https://aveersingh.github.io/groundwater-india/ (M3 gate met), deployed by `.github/workflows/pages.yml` from a fresh pipeline run behind the strict gate.
