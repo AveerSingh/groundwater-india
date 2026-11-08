@@ -1,0 +1,346 @@
+# Raw district name -> Census 2011 district name, by 2-digit state code (of the
+# raw state label). Targets must be spelled as in 2011_Dist.shp (DISTRICT field);
+# 02_reconcile_names.py fails if one is not. Keys are matched after normalisation
+# (upper case, non-alphanumerics removed), so "E. Champaran" == "E Champaran".
+#
+# A null target marks a post-2011 district with more than one 2011 parent: each
+# row is then placed by its coordinates (method `spatial`). Only names listed
+# here with null, or rows with no district name, are ever placed spatially.
+#
+# Comment tags: [rename] official rename; [spelling] variant or typo;
+# [new:1] post-2011 district with a single 2011 parent; [label] state label wrong in source.
+
+"01":  # Jammu & Kashmir
+  RAJAURI: Rajouri                 # spelling
+  Budgam: Badgam                   # spelling
+  Handwara: Kupwara                # Handwara is a tehsil of Kupwara
+  Mahreen: null                    # place name, not a district
+
+"02":  # Himachal Pradesh
+  Sirmour: Sirmaur                 # spelling
+
+"03":  # Punjab
+  Bhatinda: Bathinda               # spelling
+  Ferozepur: Firozpur              # spelling
+  Ferozpur: Firozpur               # spelling
+  Fazilka: Firozpur                # new:1 (2011)
+  Pathankot: Gurdaspur             # new:1 (2011)
+  Nawanshahar: Shahid Bhagat Singh Nagar   # rename
+  Nawanshahr: Shahid Bhagat Singh Nagar    # rename
+  SBS Nagar: Shahid Bhagat Singh Nagar     # abbreviation
+  Ropar: Rupnagar                  # rename
+  Roper: Rupnagar                  # spelling
+  SAS Nagar: Sahibzada Ajit Singh Nagar    # abbreviation
+
+"05":  # Uttarakhand
+  Pauri Garhwal: Garhwal           # rename
+  US Nagar: Udham Singh Nagar      # abbreviation
+
+"06":  # Haryana
+  Gurugram: Gurgaon                # rename 2016
+  Charkhi Dadri: Bhiwani           # new:1 (2016)
+  KKR: Kurukshetra                 # abbreviation
+  Y. Nagar: Yamunanagar            # abbreviation
+
+"07":  # Delhi
+  South East: null                 # 2012 district, carved from South and East
+  Shahdara: null                   # 2012 district
+  Nazul Land: null                 # land category, not a district
+  Nazulland: null
+
+"09":  # Uttar Pradesh
+  Bulandsahar: Bulandshahr         # spelling (also catches "Bula0sahar")
+  Hathras: Mahamaya Nagar          # rename
+  J P Nagar: Jyotiba Phule Nagar   # abbreviation
+  Amroha: Jyotiba Phule Nagar      # rename
+  Amroha/ J.P. Nagar: Jyotiba Phule Nagar
+  Kasganj: Kansiram Nagar          # rename
+  Kashiramnagar(Kasganj): Kansiram Nagar
+  "KASHIRAMNAGAR (KA": Kansiram Nagar      # truncated in source
+  Lakhimpur: Kheri                 # UP's Lakhimpur Kheri, not Assam's Lakhimpur
+  Lakhimpur Kheri: Kheri
+  Lakhimpur Khiri: Kheri
+  Mattura: Mathura                 # spelling
+  Maunath Bhanjan: Mau             # HQ name
+  Maunath: Mau
+  MBhaaunnjaatnh: Mau              # PDF debris of "Maunath Bhanjan"
+  MBhaaunnjaatnh Bhanjan: Mau
+  Raibareli: Rae Bareli            # spelling
+  Rai Bareli: Rae Bareli
+  Sant Ravidas Nagar: Sant Ravi Das Nagar(bhadohi)
+  Sant Rabidas Nagar: Sant Ravi Das Nagar(bhadohi)
+  St Ravidasnagar: Sant Ravi Das Nagar(bhadohi)
+  St. Ravidas Nagar: Sant Ravi Das Nagar(bhadohi)
+  Bhadohi: Sant Ravi Das Nagar(bhadohi)
+  Chandawali: Chandauli            # spelling
+  G.B. Nagar: Gautam Buddha Nagar  # abbreviation
+  Prayagraj: Allahabad             # rename 2018
+  Allahabad/ Prayagraj: Allahabad
+  Ayodhya: Faizabad                # rename 2018
+  Faizabad / Ayodhya: Faizabad
+  BaIrampur: Balrampur             # OCR (capital I for l)
+  Balrarnpur: Balrampur            # OCR (rn for m)
+  Ferrukabad: Farrukhabad          # spelling
+  Ghazlpur: Ghazipur               # OCR
+  Hapur: Ghaziabad                 # new:1 (2011)
+  Shamli: Muzaffarnagar            # new:1 (2011)
+  Amethi: null                     # 2010, from Sultanpur and Rae Bareli
+  Sambhal: null                    # 2011, from Moradabad and Budaun
+
+"10":  # Bihar
+  Bhabhua: Kaimur (bhabua)
+  Kaimur: Kaimur (bhabua)
+  E Champaran: Purba Champaran
+  East Chamapran: Purba Champaran
+  W Champaran: Pashchim Champaran
+  W Chamaparan: Pashchim Champaran
+  West Champaran: Pashchim Champaran
+  Saran: Saran (chhapra)
+  Purnea: Purnia                   # spelling
+  "Gopalganj* District Name Changed": Gopalganj
+  Katihar (Purnea): Katihar
+
+"13":  # Nagaland
+  Wikha: Wokha                     # spelling
+  Chumoukedima: Dimapur            # new:1 (2021)
+  Chumukedima: Dimapur
+  Nuiland: Dimapur                 # new:1 (2021, "Niuland")
+  Tseminyu: Kohima                 # new:1 (2021)
+
+"15":  # Mizoram
+  Serchip: Serchhip                # spelling (appears under Tripura)
+  Saitual: null                    # 2019, from Aizawl and Champhai
+
+"16":  # Tripura
+  Unakoti: North Tripura           # new:1 (2012)
+  Khowai: West Tripura             # new:1 (2012)
+  Sepahijala: West Tripura         # new:1 (2012)
+  Gomati: South Tripura            # new:1 (2012)
+  Gomti: South Tripura
+
+"17":  # Meghalaya
+  West Garo: West Garo Hills
+  North Garo Hills: East Garo Hills        # new:1 (2012)
+  South West Garo Hills: null              # 2012, from West and South Garo Hills
+  South West Garo Hill: null
+  SW Garo: null
+  West Jaintia Hills: Jaintia Hills        # new:1 (2012)
+
+"18":  # Assam
+  Kamrup (M): Kamrup Metropolitan
+  Kamrup Metro: Kamrup Metropolitan
+  Morigaon: Marigaon               # spelling
+  Sibsagar: Sivasagar              # rename
+  Sribhumi (Karimganj): Karimganj  # rename 2024
+  Tezpur: Sonitpur                 # HQ name
+  Biswanath: Sonitpur              # new:1 (2015)
+  Charaideo: Sivasagar             # new:1 (2015)
+  Hojai: Nagaon                    # new:1 (2015)
+  Majuli: Jorhat                   # new:1 (2016)
+  East Karbi Anglong: Karbi Anglong        # rename of the 2011 district
+  East Kaarbi-Anglong: Karbi Anglong
+  West Karbi Anglong: Karbi Anglong        # new:1 (2016)
+  West Kaarbi-Anglong: Karbi Anglong
+  W. Karbi Anglong: Karbi Anglong
+
+"19":  # West Bengal
+  Darjeeling: Darjiling            # spelling
+  Howrah: Haora                    # spelling
+  Hooghly: Hugli                   # spelling
+  Cooch Behar: Koch Bihar          # spelling
+  Coochbehar: Koch Bihar
+  Alipurduar: Jalpaiguri           # new:1 (2014)
+  Jhargram: Pashchim Medinipur     # new:1 (2017)
+  Paschim Bardhaman: Barddhaman    # new:1 (2017)
+  Paschim Barddhaman: Barddhaman
+  Purba Bardhaman: Barddhaman      # new:1 (2017)
+  Purba Barddhaman: Barddhaman
+
+"20":  # Jharkhand
+  E. Singhbhum: Purbi Singhbhum
+  East Singhbhum: Purbi Singhbhum
+  W Singhbhum: Pashchimi Singhbhum
+  West Singhbhum: Pashchimi Singhbhum
+  Koderma: Kodarma                 # spelling
+  Loherdaga: Lohardaga             # spelling
+  Sahebganj: Sahibganj             # spelling
+  Saraikela: Saraikela-kharsawan
+
+"21":  # Odisha
+  Baudh: Bauda
+  Boudh: Bauda
+  Balasore: Baleshwar
+  Deogarh: Debagarh
+  Sonapur: Subarnapur
+  Sonepur: Subarnapur
+  Bhadark: Bhadrak                 # spelling
+  Bolangir: Balangir
+  Kenjuhar: Kendujhar
+  Keonjhar: Kendujhar
+  Khandamal: Kandhamal
+  Nawarangpur: Nabarangapur
+
+"22":  # Chhattisgarh
+  Jagdalpur: Bastar                # HQ name
+  Kanker: Uttar Bastar Kanker
+  Kawardha: Kabeerdham             # HQ name
+  Sarguja: Surguja                 # spelling
+  Balod: Durg                      # new:1 (2012)
+  Bemetara: Durg                   # new:1 (2012)
+  Bemetra: Durg
+  Mungeli: Bilaspur                # new:1 (2012)
+  Kondagaon: Bastar                # new:1 (2012)
+  Surajpur: Surguja                # new:1 (2012)
+  Balrampur: Surguja               # new:1 (2012); not UP's Balrampur
+  Balodabazar: Raipur              # new:1 (2012)
+  Baloda Bazar: Raipur
+  Gariaband: Raipur                # new:1 (2012)
+  Gariyaband: Raipur
+  Gariyabandh: Raipur
+  Gariyaband(Fotak para): Raipur
+
+"23":  # Madhya Pradesh
+  Khandwa: East Nimar              # HQ name
+  KHANDWA (EAST NIMAR): East Nimar
+  Khargone: West Nimar             # HQ name
+  KHARGONE (WEST NIMAR): West Nimar
+  Narsinghpur: Narsimhapur         # spelling
+  Narmadapuram: Hoshangabad        # rename 2022
+  Agar Malwa: Shajapur             # new:1 (2013)
+  Niwari: Tikamgarh                # new:1 (2018)
+  Maihar: Satna                    # new:1 (2023)
+  Mauganj: Rewa                    # new:1 (2023)
+  Pandhurna: Chhindwara            # new:1 (2023)
+
+"24":  # Gujarat
+  Ahmedabad: Ahmadabad             # spelling
+  Dahod: Dohad                     # spelling
+  Dang: The Dangs
+  Dangs-Ahwa: The Dangs
+  Kutchch: Kachchh                 # spelling
+  Mata no madh: Kachchh            # village in Kachchh
+  Mehsana: Mahesana                # spelling
+  Arvalli: Sabar Kantha            # new:1 (2013)
+  Aravalli: Sabar Kantha
+  Chhota Udaipur: Vadodara         # new:1 (2013)
+  Chhota Udepur: Vadodara
+  "Chhota_Udaipur*": Vadodara
+  Devbhumi Dwarka: Jamnagar        # new:1 (2013)
+  Devbhoomi Dwarka: Jamnagar
+  Dwarka: Jamnagar
+  Gir Somnath: Junagadh            # new:1 (2013)
+  Botad: null                      # 2013, from Ahmadabad and Bhavnagar
+  Mahisagar: null                  # 2013, from Panch Mahals and Kheda
+  Morbi: null                      # 2013, from Rajkot, Surendranagar and Jamnagar
+  Morvi: null
+
+"26":  # Dadra & Nagar Haveli
+  "HDAAVDELRIA A ANNDD D NAAMGAANR &H": Dadra & Nagar Haveli   # PDF debris
+  "eDliadra And Nagar Have": Dadra & Nagar Haveli              # PDF debris
+
+"27":  # Maharashtra
+  Beed: Bid                        # spelling
+  Chatrapati Sambhaji Nagar: Aurangabad    # rename 2023
+  Dharashiv: Osmanabad             # rename 2023
+  Gadchiroli: Garhchiroli          # spelling
+  Mumbai City: Mumbai
+  Raigad: Raigarh                  # Census 2011 spelling
+
+"28":  # Andhra Pradesh (incl. Telangana rows)
+  Kadapa: Y.s.r.                   # rename
+  YSR Kadapa: Y.s.r.
+  Nellore: Sri Potti Sriramulu Nellore     # rename
+  Anakapalli: Visakhapatnam        # new:1 (2022)
+  Kakinada: East Godavari          # new:1 (2022)
+  Konaseema: East Godavari         # new:1 (2022)
+  Palnadu: Guntur                  # new:1 (2022)
+  NTR: Krishna                     # new:1 (2022)
+  Sri Satya Sai: Anantapur         # new:1 (2022)
+  Sri Sathyasa sai: Anantapur
+  Nandyal: Kurnool                 # new:1 (2022)
+  Alluri Sita Rama Raju: null      # 2022, multi-parent
+  Annamayya: null
+  Bapatla: null
+  Eluru: null
+  Manyam: null
+  Parvathipuram Manyam: null
+  Tirupathi: null
+  Tirupati: null
+  # Telangana, formed 2014; post-2016 districts placed by coordinates
+  Sangareddy: Medak                # new:1 (2016); fuzzy wrongly matched Rangareddy
+  Asifabad: null
+  KB Asifabad: null
+  B.Kothagudem: null
+  Bhadradri Kothagudem: null
+  Hanamkonda: null
+  J.Bhupalapally: null
+  Jayashankar Bhupalapally: null
+  Jagtial: null
+  Jangaon: null
+  Jogulamba: null
+  Jogulamba Gadwal: null
+  Kamareddy: null
+  Kama Reddy: null
+  Mahabubabad: null
+  Mancherial: null
+  Medchal Malkajgiri: null
+  Medchal Malkanjgiri: null
+  Mulugu: null
+  Nagarkurnool: null
+  Narayanpet: null
+  Nirmal: null
+  Pedapalle: null
+  Peddapalli: null
+  R. Sircilla: null
+  Rajanna Sircilla: null
+  Siddipet: null
+  Suryapet: null
+  Suryapeta: null
+  Vikarabad: null
+  Wanaparthy: null
+  Yadadri Bhuvanagiri: null
+
+"29":  # Karnataka
+  Bangalore Urban: Bangalore
+  Bengaluru Urban: Bangalore
+  Bengaluru Rural: Bangalore Rural
+  Ballari: Bellary                 # rename 2014
+  Belagavi: Belgaum                # rename 2014
+  Chickballapur: Chikkaballapura
+  Chikballapur: Chikkaballapura
+  Chamarajanagara: Chamrajnagar
+  Chikkamagaluru: Chikmagalur
+  Kalaburagi: Gulbarga             # rename 2014
+  Mysuru: Mysore                   # rename 2014
+  Shivamogga: Shimoga              # rename 2014
+  Tumakuru: Tumkur                 # rename 2014
+  Udipi: Udupi                     # spelling
+  Vijayapura: Bijapur              # rename 2014
+  Vijayanagara: Bellary            # new:1 (2021)
+
+"32":  # Kerala
+  Allapuzha: Alappuzha
+  Kasarakode: Kasaragod
+  Trivandrum: Thiruvananthapuram
+
+"33":  # Tamil Nadu
+  Dindugal: Dindigul
+  Tuticorin: Thoothukkudi          # rename
+  Nilgiris: The Nilgiris
+  Trichy: Tiruchirappalli
+  T.V. Malai: Tiruvannamalai
+  Thiruvannamalai: Tiruvannamalai  # also catches "THIRUVAN0MALAI"
+  Nagapattinam: Nagappattinam      # also catches "0gapatti0m"
+  Virudhunagar: Virudunagar        # also catches "VIRUDHU0GAR"
+  Ranipet: Vellore                 # new:1 (2019)
+
+"34":  # Puducherry
+  Pondicherry: Puducherry          # rename
+
+"35":  # Andaman & Nicobar Islands
+  N&M Andaman: North & Middle Andaman
+  Long Island: North & Middle Andaman
+  Havelock: South Andaman
+  Havelock Island: South Andaman
+  Neil Island: South Andaman
+  Ross Island: South Andaman

@@ -1,0 +1,7 @@
+Vendored so the page never depends on a CDN (SPEC §8.6). Retrieved 2026-11-08 from unpkg.
+
+leaflet-1.9.4/        https://unpkg.com/leaflet@1.9.4/dist/  BSD-2-Clause (LICENSE)
+  leaflet.js  sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=  (matches Leaflet's published SRI)
+  leaflet.css sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=  (matches Leaflet's published SRI)
+  marker images not vendored: the site draws circle markers only.
+topojson-client-3.1.0/ https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js  ISC (LICENSE)

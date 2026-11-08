@@ -1,0 +1,47 @@
+# Census of India 2011, total population by state / UT (Primary Census Abstract).
+# Keyed by 2011 state code (same codes as stations.csv state_code and the boundary
+# file's ST_CEN_CD). 2011 states: Telangana is inside Andhra Pradesh (28); Ladakh is
+# inside Jammu & Kashmir (01); Dadra & Nagar Haveli and Daman & Diu are separate.
+# Check: the 35 values sum to 1,210,854,977, the published India total
+# (tests/test_coverage.py asserts this).
+# Used only for "monitored wells per million population, by state" (SPEC T6).
+# Never used to estimate people affected (SPEC §10.3).
+vintage: "Census of India 2011"
+source: "Census of India 2011, Primary Census Abstract, total population by state/UT"
+india_total: 1210854977
+by_state:
+  "01": {name: "Jammu & Kashmir", population: 12541302}
+  "02": {name: "Himachal Pradesh", population: 6864602}
+  "03": {name: "Punjab", population: 27743338}
+  "04": {name: "Chandigarh", population: 1055450}
+  "05": {name: "Uttarakhand", population: 10086292}
+  "06": {name: "Haryana", population: 25351462}
+  "07": {name: "NCT of Delhi", population: 16787941}
+  "08": {name: "Rajasthan", population: 68548437}
+  "09": {name: "Uttar Pradesh", population: 199812341}
+  "10": {name: "Bihar", population: 104099452}
+  "11": {name: "Sikkim", population: 610577}
+  "12": {name: "Arunachal Pradesh", population: 1383727}
+  "13": {name: "Nagaland", population: 1978502}
+  "14": {name: "Manipur", population: 2855794}
+  "15": {name: "Mizoram", population: 1097206}
+  "16": {name: "Tripura", population: 3673917}
+  "17": {name: "Meghalaya", population: 2966889}
+  "18": {name: "Assam", population: 31205576}
+  "19": {name: "West Bengal", population: 91276115}
+  "20": {name: "Jharkhand", population: 32988134}
+  "21": {name: "Odisha", population: 41974218}
+  "22": {name: "Chhattisgarh", population: 25545198}
+  "23": {name: "Madhya Pradesh", population: 72626809}
+  "24": {name: "Gujarat", population: 60439692}
+  "25": {name: "Daman & Diu", population: 243247}
+  "26": {name: "Dadra & Nagar Haveli", population: 343709}
+  "27": {name: "Maharashtra", population: 112374333}
+  "28": {name: "Andhra Pradesh (incl. Telangana)", population: 84580777}
+  "29": {name: "Karnataka", population: 61095297}
+  "30": {name: "Goa", population: 1458545}
+  "31": {name: "Lakshadweep", population: 64473}
+  "32": {name: "Kerala", population: 33406061}
+  "33": {name: "Tamil Nadu", population: 72147030}
+  "34": {name: "Puducherry", population: 1247953}
+  "35": {name: "Andaman & Nicobar Islands", population: 380581}

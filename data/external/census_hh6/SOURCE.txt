@@ -1,0 +1,5 @@
+source: Census of India 2011, Table HH-6 / HL-06 "Households (excluding institutional households) by main source of drinking water and location", one file per state/UT (DDW-HH2206-SS00.xls)
+catalogue: https://censusindia.gov.in/nada/index.php/catalog/8445 ... /8479 (35 states/UTs; 8444 is the India total)
+publisher: Office of the Registrar General & Census Commissioner, India
+retrieved: 2026-11-07 (scripts/fetch_covariates.py census)
+licence: Government of India publication; check terms before redistribution

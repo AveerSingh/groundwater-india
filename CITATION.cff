@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "India Groundwater Quality & Monitoring Map"
+type: dataset
+authors:
+  - family-names: Singh
+    given-names: Aveer
+license: CC-BY-4.0
+# doi: added after the first Zenodo release (M7)
+# repository-code: added once the GitHub repo exists
+keywords: [groundwater, India, nitrate, fluoride, water quality, CGWB, monitoring coverage]

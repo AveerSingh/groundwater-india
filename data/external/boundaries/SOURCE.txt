@@ -1,0 +1,5 @@
+source: https://github.com/datameet/maps/tree/5ea90379e67dece749b01448ca438161a3534b79/Districts/Census_2011
+commit: 5ea90379e67dece749b01448ca438161a3534b79
+retrieved: 2026-11-07
+licence: CC BY 4.0 (datameet/maps README, "Data License"); attribute "DataMeet India community"
+files: 2011_Dist.{shp,shx,dbf,prj}

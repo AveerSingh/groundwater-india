@@ -1,0 +1,21 @@
+# M5: ~36 state entries plus central bodies. Every entry needs a source_url
+# before launch (09_validate will enforce). Describe mandates; never assign blame.
+# Entries below are placeholders from SPEC §6 and are not yet sourced.
+
+cgwb_wr:
+  name: "Central Ground Water Board, Western Region"
+  mandate: "Monitors groundwater quality. Does not regulate it."
+  level: central
+  source_url: null   # TODO
+
+rj_phed:
+  name: "Public Health Engineering Department, Rajasthan"
+  mandate: "Must deliver drinking water meeting IS 10500 regardless of source quality."
+  level: state
+  source_url: null   # TODO
+
+dof:
+  name: "Department of Fertilizers, Ministry of Chemicals & Fertilizers"
+  mandate: "Sets fertiliser subsidy and availability, which shapes application rates."
+  level: central
+  source_url: null   # TODO

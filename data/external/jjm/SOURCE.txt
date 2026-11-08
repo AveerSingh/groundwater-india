@@ -1,0 +1,6 @@
+source: Jal Jeevan Mission dashboard, https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx
+method: the dashboard's own district-map request (BindDistrictMap, coverage of household tap connections), one call per state; see scripts/fetch_covariates.py
+fields: KeyValue (2011 census district code, or a post-2011 code above 640), Name, Value (rural households with a tap connection), Total (rural households), StCode11 (state code used by the dashboard; 36-39 are reorganised states)
+as of: live figures on the retrieval date in the file name
+retrieved: 2026-11-07
+publisher: Department of Drinking Water and Sanitation, Ministry of Jal Shakti; check terms before redistribution

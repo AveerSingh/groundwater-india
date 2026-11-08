@@ -1,0 +1,10 @@
+source: ESRI India Living Atlas, "District Wise Dynamic Ground Water Resources 2025" (holds 2022-2025 district figures)
+service: https://livingatlas.esri.in/server1/rest/services/Water/Dynamic_Ground_Water_Resource_Estimation/MapServer/0
+underlying data: CGWB Dynamic Ground Water Resources assessments (Ministry of Jal Shakti); the layer states no source or licence
+fields kept: 2024 recharge, extractable resource, extraction, stage of extraction, assessment units by category; geometry simplified (maxAllowableOffset 0.002 deg)
+checks: national 2024 stage 60.48% (CGWB published 60.47%); 6,745 assessment units (published 6,746); Jharkhand districts match CGWB's state report
+retrieved: 2026-11-07 (scripts/fetch_covariates.py dgwr)
+licence: unstated, so the layer itself is NOT committed. `make fetch` downloads it to raw/ (git-ignored).
+committed instead (built from it by 07_covariates.build_dgwr_tables):
+  dgwr_districts_2024.csv  the layer's attribute table: CGWB's 2024 district figures, no shapes
+  dgwr_weights_2011.csv    share of each current district's area in each 2011 district (cur_id = layer objectid)

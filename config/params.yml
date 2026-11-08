@@ -1,0 +1,151 @@
+# Parameter registry.
+#
+# column_regex   matched case-insensitively against the column name after
+#                whitespace normalisation (re.sub(r'\s+', ' ', name).strip()),
+#                anchored at the start. Never compare column names as exact strings
+#                (SPEC §2.2: the EC column has used two different "micro" characters).
+# years          years in which the parameter must be found. A missing column in a
+#                listed year is a hard failure in T1.
+# tier           A = map layer, B = district panel + downloads, C = downloads only.
+# verified       true only when the limit was checked against the text of IS 10500:2012.
+#                Parameters with no limit (tier C, no acceptable/permissible/indicator)
+#                carry no `verified` key; 09_validate checks every parameter that
+#                states a number a reader could mistake for a limit.
+# compare_to_limit
+#                default true. false = the limit is recorded here for reference only:
+#                no output (aggregates, site, downloads) may count or label wells
+#                against it. Values (n, median, p90, max) are still published.
+#                Used while a limit is unverified; 09_validate allows verified: false
+#                only when compare_to_limit is false.
+# plausibility_max values marked `provisional` were chosen at T0 and need review in T1.
+#
+# Verification record: docs/METHOD.md §"Drinking-water limits".
+
+NO3:
+  label: Nitrate
+  unit: mg/L
+  column_regex: '^no3\b'
+  acceptable: 45
+  permissible: null        # "No relaxation"
+  verified: true
+  source: "IS 10500:2012, Table 2, Sl No. xvi"
+  plausibility_max: 2500
+  health: "High nitrate is linked to methaemoglobinaemia in bottle-fed infants."
+  origin: anthropogenic
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  tier: A
+
+F:
+  label: Fluoride
+  unit: mg/L
+  column_regex: '^f\b'       # \b stops this matching "Fe"
+  acceptable: 1.0
+  permissible: 1.5
+  verified: true
+  source: "IS 10500:2012, Table 2, Sl No. x"
+  plausibility_max: 30
+  health: "Sustained high fluoride causes dental and skeletal fluorosis."
+  origin: geogenic
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  tier: A
+
+EC:
+  label: Electrical conductivity
+  unit: µS/cm
+  column_regex: '^ec\b'
+  acceptable: null
+  permissible: null
+  indicator_threshold: 1500
+  is_bis_limit: false       # IMPORTANT — SPEC §10.4
+  verified: true            # verified = confirmed IS 10500:2012 sets no EC limit (TDS only: 500 / 2000 mg/L, Table 1 Sl No. vi)
+  source: "Project indicator threshold; not an IS 10500 limit"
+  note: "IS 10500:2012 sets a limit for TDS, not EC. 1,500 µS/cm is used here as a salinity indicator and is labelled as such."
+  plausibility_max: 100000
+  origin: mixed
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  tier: A
+
+Cl:
+  label: Chloride
+  unit: mg/L
+  column_regex: '^cl\b'
+  acceptable: 250
+  permissible: 1000
+  verified: true
+  source: "IS 10500:2012, Table 2, Sl No. viii"
+  plausibility_max: 40000   # provisional
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  tier: A
+
+SO4:
+  label: Sulphate
+  unit: mg/L
+  column_regex: '^so4\b'
+  acceptable: 200
+  permissible: 400
+  permissible_condition: "Only where magnesium does not exceed 30 mg/L"
+  verified: true
+  source: "IS 10500:2012, Table 2, Sl No. xx"
+  plausibility_max: 20000   # provisional
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  tier: B
+
+U:
+  label: Uranium
+  unit: ppb
+  column_regex: '^u(?![a-z])'   # matches "U(ppb)", "U_ppb_", "U (ppb)"
+  acceptable: 30
+  permissible: null
+  verified: false           # NOT in the 2012 text. Added by a later amendment; amendment text not yet seen.
+  compare_to_limit: false   # show values only until verified (decision 2026-11-07)
+  source: "Unconfirmed — reported as an IS 10500 amendment (0.03 mg/L)"
+  plausibility_max: 5000    # provisional
+  years: [2021, 2023, 2024]  # 2022 file has a fully populated integer U column; excluded pending decision
+  non_random_sample: [2021]
+  tier: B
+
+As:
+  label: Arsenic
+  unit: ppb
+  column_regex: '^as(?![a-z])'
+  acceptable: 10
+  permissible: 50
+  verified: false           # 10 / 50 matches the 2012 text (Table 3, Sl No. x). Amendment No. 1 not seen; it may have removed the 50 ppb relaxation.
+  compare_to_limit: false   # show values only until verified (decision 2026-11-07)
+  source: "IS 10500:2012, Table 3, Sl No. x (amendments unchecked)"
+  plausibility_max: 5000    # provisional
+  years: [2023, 2024]
+  tier: B
+
+Fe:
+  label: Iron
+  unit: mg/L
+  column_regex: '^fe(?![a-z])'   # 2023 header says ppm; ppm == mg/L for water
+  acceptable: 0.3
+  permissible: null         # "No relaxation"
+  verified: true
+  source: "IS 10500:2012, Table 2, Sl No. xii"
+  plausibility_max: 200     # provisional
+  years: [2023, 2024]
+  tier: B
+
+# ---- Tier C: no limit is displayed; carried into stations.csv and downloads. ----
+
+pH:   {label: pH, unit: "", column_regex: '^ph\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+TDS:  {label: Total dissolved solids, unit: mg/L, column_regex: '^tds\b', years: [2019, 2020, 2021, 2024], tier: C}
+CO3:  {label: Carbonate, unit: mg/L, column_regex: '^co3\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+HCO3: {label: Bicarbonate, unit: mg/L, column_regex: '^hco3\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+PO4:  {label: Phosphate, unit: mg/L, column_regex: '^po4\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+TH:   {label: Total hardness, unit: mg/L, column_regex: '^(th|total hardness)\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+Ca:   {label: Calcium, unit: mg/L, column_regex: '^ca\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+Mg:   {label: Magnesium, unit: mg/L, column_regex: '^mg\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+Na:   {label: Sodium, unit: mg/L, column_regex: '^na\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+K:    {label: Potassium, unit: mg/L, column_regex: '^k\b', years: [2019, 2020, 2021, 2022, 2023, 2024], tier: C}
+SiO2: {label: Silica, unit: mg/L, column_regex: '^sio2\b', years: [2019, 2020, 2021, 2024], tier: C}   # no column in 2023; empty column in 2022
+Mn:   {label: Manganese, unit: mg/L, column_regex: '^mn(?![a-z])', years: [2024], tier: C}
+Cu:   {label: Copper, unit: mg/L, column_regex: '^cu(?![a-z])', years: [2024], tier: C}
+Pb:   {label: Lead, unit: mg/L, column_regex: '^pb(?![a-z])', years: [2024], tier: C}
+Zn:   {label: Zinc, unit: mg/L, column_regex: '^zn(?![a-z])', years: [2024], tier: C}
+Ni:   {label: Nickel, unit: mg/L, column_regex: '^ni(?![a-z])', years: [2024], tier: C}
+Cd:   {label: Cadmium, unit: mg/L, column_regex: '^cd(?![a-z])', years: [2024], tier: C}
+Cr:   {label: Chromium, unit: mg/L, column_regex: '^cr(?![a-z])', years: [2024], tier: C}

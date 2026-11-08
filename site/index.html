@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Groundwater Map</title>
+<meta name="description" content="Groundwater quality at CGWB monitoring wells, by district, with the number of wells behind every figure: nitrate, fluoride and where nobody has tested.">
+<link rel="preload" href="data/geo/districts.topo.json" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="data/districts.json" as="fetch" crossorigin="anonymous">
+<link rel="stylesheet" href="vendor/leaflet-1.9.4/leaflet.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#panel">Skip to district details</a>
+
+<header class="intro">
+  <h1>India groundwater: what is in it, and who has looked</h1>
+  <p class="claim">India's groundwater crisis is usually described as a shortage. In much of the country the water is there, it is unsafe, and much of it has never been tested.</p>
+  <ul class="stats" aria-label="Headline numbers, 2024">
+    <li class="stat">
+      <span class="stat-value"><!--n:headline.nitrate_quarter.districts-->110<!--/n--></span>
+      <span class="stat-label">districts where more than a quarter of monitored wells exceed the nitrate limit
+        <span class="stat-note">of <!--n:headline.nitrate_quarter.of-->281<!--/n--> districts with at least 10 wells, 2024 pre-monsoon</span></span>
+    </li>
+    <li class="stat">
+      <span class="stat-value"><!--n:headline.fewer_than_3_wells.districts-->94<!--/n--></span>
+      <span class="stat-label">districts with fewer than three monitored wells in 2024
+        <span class="stat-note">of <!--n:headline.fewer_than_3_wells.of-->640<!--/n--> districts</span></span>
+    </li>
+    <li class="stat">
+      <span class="stat-value"><!--n:headline.never_tested_arsenic.districts-->116<!--/n--></span>
+      <span class="stat-label">districts never tested for arsenic
+        <span class="stat-note"><!--n:headline.never_tested_arsenic.text-->districts with no arsenic result in 2023-2024, the years CGWB reported arsenic<!--/n--></span></span>
+    </li>
+  </ul>
+</header>
+
+<main class="explore">
+  <section class="map-col" aria-label="Map">
+    <form class="controls" onsubmit="return false">
+      <fieldset class="layers">
+        <legend>Map layer</legend>
+        <label><input type="radio" name="layer" value="NO3" checked> Nitrate</label>
+        <label><input type="radio" name="layer" value="F"> Fluoride</label>
+        <label><input type="radio" name="layer" value="coverage"> Monitoring coverage</label>
+      </fieldset>
+      <div class="control-row">
+        <label class="check"><input type="checkbox" id="wells-toggle"> Show monitored wells in view</label>
+        <label class="pick">Find a district
+          <select id="district-pick"><option value="">Choose…</option></select>
+        </label>
+      </div>
+    </form>
+    <div id="map" class="map" role="application" aria-label="District map of India. Tab to a district and press Enter for details, or use Find a district."></div>
+    <p class="map-status" id="map-status" aria-live="polite"></p>
+    <div id="legend" class="legend" aria-live="polite"></div>
+    <p class="wells-note">The wells are shallow monitoring wells of the Central Ground Water Board's National Hydrograph Network, not household taps or the deeper borewells many households draw from. Map: 2024 pre-monsoon round.</p>
+    <noscript><p class="noscript">The interactive map needs JavaScript. The national figures on this page and every <a href="downloads.html">download</a> work without it.</p></noscript>
+  </section>
+
+  <aside id="panel" class="panel" tabindex="-1" aria-live="polite" aria-label="District details">
+    <div class="panel-empty">
+      <h2>Pick a district</h2>
+      <p>Click a district, tab to it and press Enter, or use <em>Find a district</em>. Every figure here comes with the number of wells behind it.</p>
+      <p>A hatched district had too few wells to show a share: <span class="hatch-key h45" aria-hidden="true"></span> 3 to 9 wells (counts only), <span class="hatch-key h135" aria-hidden="true"></span> fewer than 3, or none.</p>
+    </div>
+  </aside>
+</main>
+
+<section class="trend" aria-labelledby="trend-h">
+  <h2 id="trend-h">National share of monitored wells above the limit</h2>
+  <p class="caption">Pre-monsoon, 2019–2024. The monitored network changes between years, so these are national aggregates, not district trends. EC is measured against an indicator threshold chosen by this project, not a BIS limit. Uranium is left out: the states sampled for it changed between years.</p>
+  <div id="trend-chart" class="chart"></div>
+  <details class="table-view" open>
+    <summary>Table</summary>
+    <table id="trend-table">
+      <thead><tr><th scope="col">Year</th><th scope="col">Nitrate</th><th scope="col">Fluoride</th><th scope="col">EC (indicator)</th><th scope="col">Chloride</th></tr></thead>
+      <tbody><!--trend-rows--><tr><th scope="row">2019</th><td>20.6%</td><td>7.0%</td><td>20.0%</td><td>2.6%</td></tr><tr><th scope="row">2020</th><td>23.6%</td><td>6.8%</td><td>18.7%</td><td>2.9%</td></tr><tr><th scope="row">2021</th><td>19.5%</td><td>5.5%</td><td>18.7%</td><td>2.8%</td></tr><tr><th scope="row">2022</th><td>22.4%</td><td>6.8%</td><td>21.5%</td><td>2.5%</td></tr><tr><th scope="row">2023</th><td>19.7%</td><td>9.0%</td><td>22.8%</td><td>3.1%</td></tr><tr><th scope="row">2024</th><td>24.0%</td><td>7.6%</td><td>23.5%</td><td>2.9%</td></tr><!--/trend-rows--></tbody>
+    </table>
+  </details>
+</section>
+
+<section class="limits" aria-labelledby="lim-h">
+  <h2 id="lim-h">What this map cannot tell you</h2>
+  <ul>
+    <li><strong>It is not a verdict on anyone's water.</strong> A district where no monitored well exceeded a limit is not "safe"; it means no monitored well exceeded a limit in that round.</li>
+    <li><strong>Monitoring is uneven.</strong> Some districts have dozens of wells, some have one, some have none. The hatch shows where there are too few to say anything as a share.</li>
+    <li><strong>Different wells each year.</strong> Few sites are sampled in every year, so the map shows one round, not change over time.</li>
+    <li><strong>Some parameters were tested only in some years.</strong> Arsenic and uranium in 2023–24 (uranium also partly in 2021); their limits are shown as values only until checked against the standard's text.</li>
+    <li><strong>Context figures have their own dates.</strong> Household water sources are from the 2011 Census; groundwater extraction from CGWB's 2024 assessment; tap connections from the Jal Jeevan Mission dashboard on the date shown.</li>
+    <li><strong>Districts are 2011 Census districts,</strong> so wells in districts created since are counted in their 2011 parent.</li>
+  </ul>
+  <p><a href="method.html">How the numbers are made</a></p>
+</section>
+
+<footer class="foot">
+  <p>Data: Central Ground Water Board, Government of India (groundwater quality 2019–2024); Census of India 2011; CGWB Dynamic Ground Water Resources 2024; Jal Jeevan Mission. Boundaries: Census 2011 districts by the <a href="https://github.com/datameet/maps">DataMeet India community</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</p>
+  <p><a href="method.html">Method</a> · <a href="downloads.html">Downloads</a> · Code MIT, derived data CC BY 4.0</p>
+</footer>
+
+<script src="vendor/leaflet-1.9.4/leaflet.js"></script>
+<script src="vendor/topojson-client-3.1.0/topojson-client.min.js"></script>
+<script src="js/format.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/panel.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>

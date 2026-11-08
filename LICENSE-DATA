@@ -1,0 +1,12 @@
+Derived data in data/processed/ and site/data/ is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Aveer Singh
+
+Provenance: the underlying groundwater-quality measurements in data/raw/ are
+published by the Central Ground Water Board (CGWB), Ministry of Jal Shakti,
+Government of India. They are redistributed unmodified for reproducibility and
+are NOT relicensed by this project. Census 2011 boundaries and tables, CGWB
+Dynamic Ground Water Resources, and Jal Jeevan Mission data in data/external/
+remain under their publishers' terms.

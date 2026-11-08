@@ -1,0 +1,641 @@
+district_code,district,st_code,state_2011,wells_2019,wells_2020,wells_2021,wells_2022,wells_2023,wells_2024,wells_2024_pre,wells_2024_post,wells_primary,years_sampled,n_years,in_2024,params_ever_tested,params_never_tested,n_params_never_tested,tier
+001,Kupwara,01,Jammu & Kashmir,41,0,7,30,22,4,4,4,4,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+002,Badgam,01,Jammu & Kashmir,2,0,1,1,0,0,0,0,0,2019;2021;2022,3,False,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+003,Leh (ladakh),01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+004,Kargil,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+005,Punch,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+006,Rajouri,01,Jammu & Kashmir,31,34,38,38,37,6,6,6,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,8,count_only
+007,Kathua,01,Jammu & Kashmir,42,38,40,39,38,6,6,5,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,8,count_only
+008,Baramula,01,Jammu & Kashmir,27,0,10,15,10,6,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,8,count_only
+009,Bandipore,01,Jammu & Kashmir,1,0,0,0,0,0,0,0,0,2019,1,False,EC;Cl;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K,NO3;F;SO4;U;As;Fe;PO4;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,15,insufficient
+010,Srinagar,01,Jammu & Kashmir,4,0,1,1,0,2,2,1,2,2019;2021;2022;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+011,Ganderbal,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+012,Pulwama,01,Jammu & Kashmir,2,0,3,2,0,0,0,0,0,2019;2021;2022,3,False,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+013,Shupiyan,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+014,Anantnag,01,Jammu & Kashmir,2,0,0,1,0,1,1,0,1,2019;2022;2024,3,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+015,Kulgam,01,Jammu & Kashmir,6,0,0,0,0,0,0,0,0,2019,1,False,EC;Cl;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K,NO3;F;SO4;U;As;Fe;PO4;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,15,insufficient
+016,Doda,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+017,Ramban,01,Jammu & Kashmir,4,0,0,0,0,0,0,0,0,2019,1,False,EC;Cl;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K,NO3;F;SO4;U;As;Fe;PO4;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,15,insufficient
+018,Kishtwar,01,Jammu & Kashmir,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+019,Udhampur,01,Jammu & Kashmir,23,21,22,22,23,5,5,4,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,8,count_only
+020,Reasi,01,Jammu & Kashmir,8,8,9,8,7,2,2,1,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+021,Jammu,01,Jammu & Kashmir,90,82,88,82,81,29,29,26,29,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+022,Samba,01,Jammu & Kashmir,31,31,29,34,32,12,12,8,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+023,Chamba,02,Himachal Pradesh,2,1,2,0,2,5,5,0,5,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+024,Kangra,02,Himachal Pradesh,44,43,45,0,57,19,19,9,19,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+025,Lahul & Spiti,02,Himachal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+026,Kullu,02,Himachal Pradesh,1,2,2,0,5,2,2,1,2,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+027,Mandi,02,Himachal Pradesh,10,9,11,0,10,4,3,4,3,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+028,Hamirpur,02,Himachal Pradesh,4,4,6,0,8,3,1,2,1,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+029,Una,02,Himachal Pradesh,30,31,32,0,39,19,17,19,17,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+030,Bilaspur,02,Himachal Pradesh,0,0,4,0,12,2,0,2,0,2021;2023;2024,3,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+031,Solan,02,Himachal Pradesh,13,0,13,0,17,8,6,8,6,2019;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+032,Sirmaur,02,Himachal Pradesh,16,0,18,0,21,12,10,9,10,2019;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+033,Shimla,02,Himachal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+034,Kinnaur,02,Himachal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+035,Gurdaspur,03,Punjab,32,36,33,35,77,29,29,29,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+036,Kapurthala,03,Punjab,8,8,8,8,29,13,13,12,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+037,Jalandhar,03,Punjab,15,20,20,20,52,31,29,30,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+038,Hoshiarpur,03,Punjab,28,30,30,31,58,24,23,22,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+039,Shahid Bhagat Singh Nagar,03,Punjab,4,4,4,5,23,10,9,9,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+040,Fatehgarh Sahib,03,Punjab,12,11,12,13,30,17,16,17,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+041,Ludhiana,03,Punjab,19,19,20,25,55,27,26,26,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+042,Moga,03,Punjab,7,7,8,7,41,24,24,23,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+043,Firozpur,03,Punjab,22,25,25,27,101,69,67,64,35,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+044,Muktsar,03,Punjab,10,9,10,17,39,26,26,25,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+045,Faridkot,03,Punjab,21,21,20,13,30,17,17,17,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+046,Bathinda,03,Punjab,27,28,29,27,46,37,37,37,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+047,Mansa,03,Punjab,10,12,11,14,33,22,22,22,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+048,Patiala,03,Punjab,24,25,29,29,60,38,36,36,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+049,Amritsar,03,Punjab,11,12,11,14,61,36,35,34,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+050,Tarn Taran,03,Punjab,12,14,13,13,35,23,21,22,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+051,Rupnagar,03,Punjab,11,12,12,13,27,13,10,13,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+052,Sahibzada Ajit Singh Nagar,03,Punjab,12,14,16,14,24,15,13,15,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+053,Sangrur,03,Punjab,14,13,15,14,70,47,44,46,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+054,Barnala,03,Punjab,3,3,3,4,25,20,19,18,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+055,Chandigarh,04,Chandigarh,10,6,7,1,8,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+056,Uttarkashi,05,Uttarakhand,13,13,13,13,13,16,14,11,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+057,Chamoli,05,Uttarakhand,0,0,1,0,0,16,14,9,14,2021;2024,2,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+058,Rudraprayag,05,Uttarakhand,0,0,0,0,0,6,6,3,6,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+059,Tehri Garhwal,05,Uttarakhand,5,0,0,0,5,15,15,9,15,2019;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+060,Dehradun,05,Uttarakhand,47,45,49,46,49,41,36,18,36,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+061,Garhwal,05,Uttarakhand,2,3,3,3,3,20,18,16,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+062,Pithoragarh,05,Uttarakhand,0,0,0,0,0,10,9,8,9,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+063,Bageshwar,05,Uttarakhand,0,0,0,0,0,9,9,5,9,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+064,Almora,05,Uttarakhand,20,29,21,23,26,29,28,15,28,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+065,Champawat,05,Uttarakhand,1,1,1,1,1,7,7,4,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+066,Nainital,05,Uttarakhand,19,18,18,20,20,23,21,9,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+067,Udham Singh Nagar,05,Uttarakhand,47,49,49,49,49,37,35,12,35,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+068,Hardwar,05,Uttarakhand,32,40,40,40,40,33,29,12,29,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+069,Panchkula,06,Haryana,22,21,23,23,29,11,11,10,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+070,Ambala,06,Haryana,13,10,15,18,31,19,13,19,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+071,Yamunanagar,06,Haryana,22,19,21,23,36,26,26,26,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+072,Kurukshetra,06,Haryana,19,17,23,22,33,20,18,20,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+073,Kaithal,06,Haryana,24,18,29,29,46,36,31,35,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+074,Karnal,06,Haryana,33,35,40,41,55,41,38,40,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+075,Panipat,06,Haryana,20,21,22,24,52,34,33,31,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+076,Sonipat,06,Haryana,38,35,32,35,56,30,30,29,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+077,Jind,06,Haryana,20,18,19,20,58,31,23,29,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+078,Fatehabad,06,Haryana,11,11,12,13,30,14,14,11,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+079,Sirsa,06,Haryana,37,37,37,37,67,34,30,26,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+080,Hisar,06,Haryana,39,39,40,38,62,29,27,19,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+081,Bhiwani,06,Haryana,34,34,35,34,89,49,48,42,35,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+082,Rohtak,06,Haryana,12,12,12,11,32,12,11,12,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+083,Jhajjar,06,Haryana,15,14,12,14,34,18,14,18,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+084,Mahendragarh,06,Haryana,9,7,8,8,27,11,9,11,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+085,Rewari,06,Haryana,12,9,14,13,27,22,18,20,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+086,Gurgaon,06,Haryana,23,21,23,23,46,33,31,31,29,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+087,Mewat,06,Haryana,12,9,13,11,27,15,12,14,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+088,Faridabad,06,Haryana,8,6,10,10,14,5,5,5,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+089,Palwal,06,Haryana,23,19,23,21,28,28,27,27,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+090,North West,07,NCT of Delhi,23,18,32,0,34,28,18,25,18,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,reportable
+091,North,07,NCT of Delhi,4,6,7,0,8,7,1,7,1,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,insufficient
+092,North East,07,NCT of Delhi,0,2,1,0,4,5,0,5,0,2020;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,insufficient
+093,East,07,NCT of Delhi,7,8,5,0,8,11,1,10,1,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,insufficient
+094,New Delhi,07,NCT of Delhi,5,3,3,0,4,2,1,1,1,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,insufficient
+095,Central,07,NCT of Delhi,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+096,West,07,NCT of Delhi,7,5,6,0,9,7,4,7,4,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,count_only
+097,South West,07,NCT of Delhi,8,12,10,0,19,19,8,19,8,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,count_only
+098,South,07,NCT of Delhi,9,12,15,0,17,7,5,7,5,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn,Ni;Cd;Cr,3,count_only
+099,Ganganagar,08,Rajasthan,34,35,36,17,11,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+100,Hanumangarh,08,Rajasthan,31,30,28,20,16,11,11,4,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+101,Bikaner,08,Rajasthan,24,24,25,29,34,11,10,2,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+102,Churu,08,Rajasthan,27,19,29,26,42,14,14,4,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+103,Jhunjhunun,08,Rajasthan,8,8,17,19,19,3,2,1,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,insufficient
+104,Alwar,08,Rajasthan,19,10,26,31,15,7,7,2,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+105,Bharatpur,08,Rajasthan,16,17,22,28,17,11,11,4,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+106,Dhaulpur,08,Rajasthan,12,8,10,12,6,7,7,3,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+107,Karauli,08,Rajasthan,14,11,15,17,11,5,5,2,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+108,Sawai Madhopur,08,Rajasthan,12,14,17,14,12,11,10,8,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+109,Dausa,08,Rajasthan,11,5,6,13,10,8,7,2,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+110,Jaipur,08,Rajasthan,35,39,74,48,32,22,22,11,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+111,Sikar,08,Rajasthan,2,2,34,11,9,5,4,2,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+112,Nagaur,08,Rajasthan,20,16,11,23,42,7,7,4,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+113,Jodhpur,08,Rajasthan,43,36,31,51,73,18,16,6,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+114,Jaisalmer,08,Rajasthan,40,26,24,29,33,14,13,3,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+115,Barmer,08,Rajasthan,33,50,26,41,57,16,11,9,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+116,Jalor,08,Rajasthan,9,5,5,21,21,5,5,1,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+117,Sirohi,08,Rajasthan,13,10,10,19,13,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+118,Pali,08,Rajasthan,17,14,17,19,20,3,3,3,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+119,Ajmer,08,Rajasthan,19,24,25,25,14,5,5,2,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+120,Tonk,08,Rajasthan,14,15,16,19,13,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,insufficient
+121,Bundi,08,Rajasthan,9,9,11,12,9,3,3,1,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+122,Bhilwara,08,Rajasthan,36,37,55,48,26,13,13,6,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,reportable
+123,Rajsamand,08,Rajasthan,25,23,23,20,15,5,5,0,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+124,Dungarpur,08,Rajasthan,14,15,13,24,4,2,2,2,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,insufficient
+125,Banswara,08,Rajasthan,16,33,35,31,14,0,0,0,0,2019;2020;2021;2022;2023,5,False,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+126,Chittaurgarh,08,Rajasthan,15,12,17,19,6,5,5,4,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+127,Kota,08,Rajasthan,13,16,15,15,1,2,2,1,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,insufficient
+128,Baran,08,Rajasthan,13,17,20,19,5,6,6,1,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+129,Jhalawar,08,Rajasthan,21,22,27,23,12,3,3,1,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+130,Udaipur,08,Rajasthan,27,22,37,43,11,5,5,3,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+131,Pratapgarh,08,Rajasthan,8,16,17,22,7,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn,SiO2;Ni;Cd;Cr,4,count_only
+132,Saharanpur,09,Uttar Pradesh,11,11,11,11,15,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+133,Muzaffarnagar,09,Uttar Pradesh,14,14,15,10,28,10,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+134,Bijnor,09,Uttar Pradesh,11,0,11,17,16,13,11,11,11,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+135,Moradabad,09,Uttar Pradesh,13,0,13,9,14,7,7,7,7,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+136,Rampur,09,Uttar Pradesh,6,0,6,6,9,7,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+137,Jyotiba Phule Nagar,09,Uttar Pradesh,6,0,6,9,9,7,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+138,Meerut,09,Uttar Pradesh,12,12,12,12,44,35,34,28,34,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+139,Baghpat,09,Uttar Pradesh,6,5,6,6,9,5,4,5,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+140,Ghaziabad,09,Uttar Pradesh,8,8,7,6,43,24,24,21,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+141,Gautam Buddha Nagar,09,Uttar Pradesh,5,0,4,11,15,2,2,2,2,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+142,Bulandshahr,09,Uttar Pradesh,14,0,15,20,25,5,5,1,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+143,Aligarh,09,Uttar Pradesh,12,0,12,21,34,17,17,3,17,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+144,Mahamaya Nagar,09,Uttar Pradesh,7,0,7,14,12,2,2,0,2,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+145,Mathura,09,Uttar Pradesh,9,9,10,26,21,4,4,1,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+146,Agra,09,Uttar Pradesh,14,0,15,15,21,7,7,6,7,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+147,Firozabad,09,Uttar Pradesh,8,0,9,9,10,3,3,3,3,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+148,Mainpuri,09,Uttar Pradesh,10,0,12,9,10,8,8,8,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+149,Budaun,09,Uttar Pradesh,19,0,18,13,20,15,15,13,15,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+150,Bareilly,09,Uttar Pradesh,17,0,15,15,14,8,8,7,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+151,Pilibhit,09,Uttar Pradesh,7,0,7,7,23,11,10,10,10,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+152,Shahjahanpur,09,Uttar Pradesh,16,0,15,16,22,13,13,13,13,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+153,Kheri,09,Uttar Pradesh,15,0,15,15,50,21,19,21,19,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+154,Sitapur,09,Uttar Pradesh,19,0,19,19,30,11,11,11,11,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+155,Hardoi,09,Uttar Pradesh,19,0,18,18,21,14,14,14,14,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+156,Unnao,09,Uttar Pradesh,17,0,16,12,22,6,6,5,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+157,Lucknow,09,Uttar Pradesh,9,0,8,2,13,4,4,4,4,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+158,Rae Bareli,09,Uttar Pradesh,25,0,4,22,18,8,8,7,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+159,Farrukhabad,09,Uttar Pradesh,6,0,10,8,9,5,5,5,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+160,Kannauj,09,Uttar Pradesh,7,0,8,8,14,6,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+161,Etawah,09,Uttar Pradesh,9,2,7,6,12,4,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+162,Auraiya,09,Uttar Pradesh,8,0,7,5,18,4,3,3,3,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+163,Kanpur Dehat,09,Uttar Pradesh,9,0,10,8,26,8,8,8,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+164,Kanpur Nagar,09,Uttar Pradesh,9,18,9,12,17,6,6,6,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+165,Jalaun,09,Uttar Pradesh,11,0,10,9,16,13,13,13,13,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+166,Jhansi,09,Uttar Pradesh,8,0,9,8,48,42,41,41,41,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+167,Lalitpur,09,Uttar Pradesh,6,0,4,6,46,42,42,42,40,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+168,Hamirpur,09,Uttar Pradesh,6,2,7,8,20,19,18,16,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+169,Mahoba,09,Uttar Pradesh,3,4,4,5,24,23,22,22,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+170,Banda,09,Uttar Pradesh,8,8,6,8,19,21,21,21,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+171,Chitrakoot,09,Uttar Pradesh,4,4,5,5,19,18,17,16,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+172,Fatehpur,09,Uttar Pradesh,14,13,12,16,19,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+173,Pratapgarh,09,Uttar Pradesh,17,17,17,16,18,6,6,6,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+174,Kaushambi,09,Uttar Pradesh,8,0,8,8,7,6,6,4,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+175,Allahabad,09,Uttar Pradesh,21,20,19,20,19,13,13,13,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+176,Bara Banki,09,Uttar Pradesh,15,0,15,14,19,4,4,4,4,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+177,Faizabad,09,Uttar Pradesh,9,0,3,8,16,5,5,5,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+178,Ambedkar Nagar,09,Uttar Pradesh,6,0,2,7,13,3,3,3,3,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+179,Sultanpur,09,Uttar Pradesh,19,1,10,14,17,5,5,4,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+180,Bahraich,09,Uttar Pradesh,12,0,12,12,17,13,11,11,10,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+181,Shrawasti,09,Uttar Pradesh,6,0,7,7,8,6,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+182,Balrampur,09,Uttar Pradesh,9,1,9,10,32,12,9,9,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+183,Gonda,09,Uttar Pradesh,15,0,16,16,11,3,2,2,2,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+184,Siddharth Nagar,09,Uttar Pradesh,14,1,15,14,37,9,7,6,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+185,Basti,09,Uttar Pradesh,15,0,14,14,8,4,3,3,3,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+186,Sant Kabir Nagar,09,Uttar Pradesh,10,0,9,8,24,3,3,3,2,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+187,Maharajganj,09,Uttar Pradesh,12,0,13,13,11,5,5,5,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+188,Gorakhpur,09,Uttar Pradesh,21,0,20,21,34,5,4,5,4,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+189,Kushinagar,09,Uttar Pradesh,11,0,14,14,11,4,4,4,4,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+190,Deoria,09,Uttar Pradesh,14,0,14,14,19,1,1,1,1,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+191,Azamgarh,09,Uttar Pradesh,22,12,21,22,7,2,2,2,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+192,Mau,09,Uttar Pradesh,9,6,0,9,4,2,2,2,2,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+193,Ballia,09,Uttar Pradesh,16,0,17,17,11,2,2,2,2,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+194,Jaunpur,09,Uttar Pradesh,24,7,22,25,25,7,7,7,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+195,Ghazipur,09,Uttar Pradesh,14,7,14,14,9,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+196,Chandauli,09,Uttar Pradesh,8,8,9,9,12,8,7,7,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+197,Varanasi,09,Uttar Pradesh,9,7,8,7,23,14,14,14,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+198,Sant Ravi Das Nagar(bhadohi),09,Uttar Pradesh,6,5,5,5,6,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+199,Mirzapur,09,Uttar Pradesh,12,8,10,12,29,17,17,17,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+200,Sonbhadra,09,Uttar Pradesh,8,6,7,8,47,35,35,18,35,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+201,Etah,09,Uttar Pradesh,9,1,7,6,9,5,5,4,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+202,Kansiram Nagar,09,Uttar Pradesh,7,0,8,8,8,0,0,0,0,2019;2021;2022;2023,4,False,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,Mn;Cu;Pb;Zn;Ni;Cd;Cr,7,insufficient
+203,Pashchim Champaran,10,Bihar,14,0,0,13,25,32,3,30,3,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+204,Purba Champaran,10,Bihar,30,3,3,29,39,16,6,11,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+205,Sheohar,10,Bihar,2,0,0,2,4,4,1,3,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+206,Sitamarhi,10,Bihar,18,0,6,8,25,6,0,6,0,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+207,Madhubani,10,Bihar,22,0,0,24,36,11,2,10,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+208,Supaul,10,Bihar,22,0,0,20,22,4,2,4,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+209,Araria,10,Bihar,8,0,0,8,9,7,4,7,4,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+210,Kishanganj,10,Bihar,9,0,0,7,4,4,2,4,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+211,Purnia,10,Bihar,19,9,0,18,16,12,5,8,5,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+212,Katihar,10,Bihar,16,6,0,15,15,13,6,13,6,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+213,Madhepura,10,Bihar,16,0,0,15,17,6,0,6,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+214,Saharsa,10,Bihar,17,0,0,14,16,4,2,3,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+215,Darbhanga,10,Bihar,9,0,6,6,22,4,0,4,0,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+216,Muzaffarpur,10,Bihar,25,7,16,14,29,10,3,7,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+217,Gopalganj,10,Bihar,18,7,0,9,22,20,7,18,7,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+218,Siwan,10,Bihar,15,2,3,13,28,17,5,15,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+219,Saran (chhapra),10,Bihar,27,11,11,16,35,19,5,19,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+220,Vaishali,10,Bihar,10,14,20,11,32,14,1,14,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+221,Samastipur,10,Bihar,12,8,13,13,25,5,3,4,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+222,Begusarai,10,Bihar,33,7,8,16,35,24,4,24,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+223,Khagaria,10,Bihar,19,0,0,12,17,14,2,14,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+224,Bhagalpur,10,Bihar,11,0,0,11,18,16,2,15,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+225,Banka,10,Bihar,12,0,0,9,11,26,0,26,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+226,Munger,10,Bihar,10,0,0,6,8,11,0,11,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+227,Lakhisarai,10,Bihar,8,0,0,3,10,12,1,11,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+228,Sheikhpura,10,Bihar,1,6,7,4,12,7,4,3,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+229,Nalanda,10,Bihar,36,28,33,33,41,24,13,14,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,reportable
+230,Patna,10,Bihar,36,4,45,18,40,19,5,14,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+231,Bhojpur,10,Bihar,36,30,33,31,40,20,8,17,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+232,Buxar,10,Bihar,24,5,25,22,32,8,2,7,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,insufficient
+233,Kaimur (bhabua),10,Bihar,12,0,0,9,15,9,2,8,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+234,Rohtas,10,Bihar,18,0,0,16,25,11,2,10,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+235,Aurangabad,10,Bihar,16,0,8,4,15,7,3,4,3,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+236,Gaya,10,Bihar,11,11,11,20,22,53,8,47,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+237,Nawada,10,Bihar,16,7,14,16,16,16,7,9,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Cr,Ni;Cd,2,count_only
+238,Jamui,10,Bihar,14,0,0,12,12,28,4,24,4,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,count_only
+239,Jehanabad,10,Bihar,10,11,7,9,9,3,1,3,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+240,Arwal,10,Bihar,6,8,5,6,9,5,2,3,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Cr,SiO2;Ni;Cd,3,insufficient
+241,North,11,Sikkim,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+242,West,11,Sikkim,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+243,South,11,Sikkim,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+244,East,11,Sikkim,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+245,Tawang,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+246,West Kameng,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+247,East Kameng,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+248,Papum Pare,12,Arunanchal Pradesh,0,5,4,5,1,22,6,20,6,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+249,Upper Subansiri,12,Arunanchal Pradesh,0,0,0,0,0,1,0,1,0,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+250,West Siang,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+251,East Siang,12,Arunanchal Pradesh,0,3,4,3,3,9,5,7,5,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+252,Upper Siang,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+253,Changlang,12,Arunanchal Pradesh,1,4,3,2,4,4,4,3,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+254,Tirap,12,Arunanchal Pradesh,1,3,3,2,3,3,1,3,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+255,Lower Subansiri,12,Arunanchal Pradesh,0,0,2,2,0,4,2,2,2,2021;2022;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+256,Kurung Kumey,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+257,Dibang Valley,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+258,Lower Dibang Valley,12,Arunanchal Pradesh,0,1,1,0,0,1,0,1,0,2020;2021;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+259,Lohit,12,Arunanchal Pradesh,1,2,1,3,1,4,2,3,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+260,Anjaw,12,Arunanchal Pradesh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+261,Mon,13,Nagaland,0,0,0,0,0,11,4,10,4,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+262,Mokokchung,13,Nagaland,0,0,0,0,0,23,23,13,23,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+263,Zunheboto,13,Nagaland,0,0,0,0,0,5,5,3,5,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+264,Wokha,13,Nagaland,0,0,0,0,0,8,6,6,6,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+265,Dimapur,13,Nagaland,2,2,0,8,6,35,33,20,33,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+266,Phek,13,Nagaland,0,0,0,0,0,12,12,9,12,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+267,Tuensang,13,Nagaland,0,0,0,0,0,3,0,3,0,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+268,Longleng,13,Nagaland,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+269,Kiphire,13,Nagaland,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+270,Kohima,13,Nagaland,0,0,0,0,0,30,25,18,25,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+271,Peren,13,Nagaland,0,0,0,0,0,8,8,4,8,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+272,Senapati,14,Manipur,0,0,0,0,0,6,5,5,5,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+273,Tamenglong,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+274,Churachandpur,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+275,Bishnupur,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+276,Thoubal,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+277,Imphal West,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+278,Imphal East,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+279,Ukhrul,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+280,Chandel,14,Manipur,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+281,Mamit,15,Mizoram,0,0,0,0,1,2,1,1,1,2023;2024,2,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+282,Kolasib,15,Mizoram,0,0,0,0,1,7,1,6,1,2023;2024,2,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+283,Aizawl,15,Mizoram,0,0,0,0,0,8,0,8,0,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+284,Champhai,15,Mizoram,0,0,0,0,0,7,0,7,0,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+285,Serchhip,15,Mizoram,0,0,0,0,1,2,0,2,0,2023;2024,2,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+286,Lunglei,15,Mizoram,0,0,0,0,0,4,0,4,0,2024,1,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+287,Lawangtlai,15,Mizoram,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+288,Saiha,15,Mizoram,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+289,West Tripura,16,Tripura,38,25,22,9,20,29,20,19,20,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+290,South Tripura,16,Tripura,33,31,32,18,23,40,30,24,30,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+291,Dhalai,16,Tripura,20,13,11,13,10,19,13,13,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+292,North Tripura,16,Tripura,41,28,25,27,28,35,27,17,27,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+293,West Garo Hills,17,Meghalaya,3,13,14,5,8,22,21,10,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+294,East Garo Hills,17,Meghalaya,48,7,13,8,9,20,18,12,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+295,South Garo Hills,17,Meghalaya,0,0,0,0,4,10,10,3,10,2023;2024,2,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+296,West Khasi Hills,17,Meghalaya,0,0,2,3,3,5,5,2,5,2021;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+297,Ri Bhoi,17,Meghalaya,0,2,7,6,5,14,14,7,14,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+298,East Khasi Hills,17,Meghalaya,0,4,6,8,10,11,5,9,5,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+299,Jaintia Hills,17,Meghalaya,0,1,2,3,0,2,2,2,2,2020;2021;2022;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+300,Kokrajhar,18,Assam,0,0,4,5,0,11,9,4,9,2021;2022;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+301,Dhubri,18,Assam,29,5,3,4,2,11,10,4,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+302,Goalpara,18,Assam,4,3,9,0,5,19,18,6,18,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+303,Barpeta,18,Assam,0,2,2,1,0,12,9,4,9,2020;2021;2022;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+304,Marigaon,18,Assam,10,8,22,9,3,13,10,6,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+305,Nagaon,18,Assam,20,23,25,19,9,22,17,15,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+306,Sonitpur,18,Assam,37,12,15,16,11,25,23,15,23,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+307,Lakhimpur,18,Assam,10,14,14,7,15,19,14,11,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+308,Dhemaji,18,Assam,0,7,6,5,9,11,7,8,7,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+309,Tinsukia,18,Assam,5,9,7,8,8,14,13,7,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+310,Dibrugarh,18,Assam,4,6,3,8,5,13,12,7,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+311,Sivasagar,18,Assam,1,2,0,2,0,10,8,3,8,2019;2020;2022;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+312,Jorhat,18,Assam,6,8,0,6,3,20,16,10,16,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+313,Golaghat,18,Assam,2,4,3,1,6,13,12,10,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+314,Karbi Anglong,18,Assam,6,23,28,24,18,38,35,16,35,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+315,Dima Hasao,18,Assam,0,0,0,0,1,0,0,0,0,2023,1,False,NO3;F;EC;Cl;SO4;U;As;Fe;pH;CO3;HCO3;TH;Ca;Mg;Na;K,TDS;PO4;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+316,Cachar,18,Assam,1,18,17,0,15,34,19,19,19,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+317,Karimganj,18,Assam,0,8,9,8,9,18,9,11,9,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+318,Hailakandi,18,Assam,33,6,6,6,3,10,5,6,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+319,Bongaigaon,18,Assam,0,5,8,3,3,5,4,2,4,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+320,Chirang,18,Assam,0,1,3,6,0,6,4,3,4,2020;2021;2022;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+321,Kamrup,18,Assam,0,7,25,7,6,18,15,12,15,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+322,Kamrup Metropolitan,18,Assam,4,3,11,2,4,21,5,18,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+323,Nalbari,18,Assam,0,1,1,0,2,7,6,6,6,2020;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+324,Baksa,18,Assam,24,0,3,6,12,21,19,9,19,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+325,Darrang,18,Assam,32,1,1,3,2,7,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+326,Udalguri,18,Assam,36,0,7,5,4,10,8,5,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+327,Darjiling,19,West Bengal,0,38,35,43,38,11,11,10,11,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+328,Jalpaiguri,19,West Bengal,0,55,29,58,65,18,5,18,5,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+329,Koch Bihar,19,West Bengal,0,28,4,24,30,15,3,15,3,2020;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+330,Uttar Dinajpur,19,West Bengal,19,9,3,15,27,14,1,14,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+331,Dakshin Dinajpur,19,West Bengal,12,21,16,15,29,10,10,9,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+332,Maldah,19,West Bengal,21,23,17,16,50,16,4,16,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+333,Murshidabad,19,West Bengal,56,36,40,40,64,30,30,19,30,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+334,Birbhum,19,West Bengal,57,56,15,0,38,12,12,12,12,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+335,Barddhaman,19,West Bengal,97,111,50,1,105,31,29,30,29,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+336,Nadia,19,West Bengal,31,38,19,20,53,22,22,13,22,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+337,North 24 Parganas,19,West Bengal,71,54,32,64,85,48,47,37,47,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+338,Hugli,19,West Bengal,48,34,15,34,29,14,13,11,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+339,Bankura,19,West Bengal,76,63,59,5,76,18,16,17,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+340,Puruliya,19,West Bengal,59,38,42,35,22,16,16,15,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+341,Haora,19,West Bengal,25,24,13,24,18,8,8,7,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+342,Kolkata,19,West Bengal,10,10,13,1,8,2,0,2,0,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+343,South 24 Parganas,19,West Bengal,59,63,85,90,90,40,33,40,33,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+344,Pashchim Medinipur,19,West Bengal,60,59,21,42,94,17,11,17,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+345,Purba Medinipur,19,West Bengal,16,11,1,25,37,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+346,Garhwa,20,Jharkhand,9,0,0,9,11,6,6,6,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+347,Chatra,20,Jharkhand,9,0,0,0,16,8,8,8,8,2019;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+348,Kodarma,20,Jharkhand,9,2,2,1,8,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+349,Giridih,20,Jharkhand,17,0,0,14,16,11,11,11,11,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+350,Deoghar,20,Jharkhand,8,0,0,4,11,3,3,3,3,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+351,Godda,20,Jharkhand,17,0,0,3,18,7,7,7,7,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+352,Sahibganj,20,Jharkhand,20,0,0,9,20,6,6,6,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+353,Pakur,20,Jharkhand,14,0,0,12,11,1,1,1,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+354,Dhanbad,20,Jharkhand,12,0,0,8,19,7,7,7,7,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+355,Bokaro,20,Jharkhand,17,3,16,16,16,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+356,Lohardaga,20,Jharkhand,13,10,12,11,8,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,9,insufficient
+357,Purbi Singhbhum,20,Jharkhand,24,9,0,21,28,5,0,5,0,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+358,Palamu,20,Jharkhand,16,0,0,0,17,2,2,2,2,2019;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+359,Latehar,20,Jharkhand,12,3,1,0,12,4,4,4,4,2019;2020;2021;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+360,Hazaribagh,20,Jharkhand,23,11,24,15,24,19,18,18,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+361,Ramgarh,20,Jharkhand,10,6,10,9,14,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+362,Dumka,20,Jharkhand,18,0,0,6,16,5,5,5,5,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+363,Jamtara,20,Jharkhand,10,0,0,7,10,5,5,5,5,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+364,Ranchi,20,Jharkhand,44,38,38,36,54,28,28,28,28,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,9,reportable
+365,Khunti,20,Jharkhand,36,51,16,20,11,2,2,2,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,9,insufficient
+366,Gumla,20,Jharkhand,13,12,11,13,17,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+367,Simdega,20,Jharkhand,13,2,0,13,13,2,1,1,1,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+368,Pashchimi Singhbhum,20,Jharkhand,17,0,0,10,16,4,0,4,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+369,Saraikela-kharsawan,20,Jharkhand,10,0,0,10,11,3,0,3,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+370,Bargarh,21,Odisha,56,43,30,61,125,66,32,34,32,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+371,Jharsuguda,21,Odisha,13,10,14,13,10,4,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+372,Sambalpur,21,Odisha,73,47,66,65,98,48,32,36,32,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+373,Debagarh,21,Odisha,6,8,7,11,0,4,4,4,4,2019;2020;2021;2022;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+374,Sundargarh,21,Odisha,62,52,66,73,26,22,11,11,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+375,Kendujhar,21,Odisha,60,47,0,63,72,18,10,17,10,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+376,Mayurbhanj,21,Odisha,73,61,52,98,106,29,16,29,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+377,Baleshwar,21,Odisha,23,19,34,37,34,14,10,12,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+378,Bhadrak,21,Odisha,18,11,16,20,14,14,11,14,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+379,Kendrapara,21,Odisha,20,18,17,25,24,25,11,14,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+380,Jagatsinghapur,21,Odisha,11,8,8,7,10,1,0,1,0,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+381,Cuttack,21,Odisha,56,41,41,53,81,29,15,28,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+382,Jajapur,21,Odisha,25,20,24,30,37,12,4,12,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+383,Dhenkanal,21,Odisha,35,32,33,34,66,22,8,21,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+384,Anugul,21,Odisha,44,35,42,41,86,43,24,41,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+385,Nayagarh,21,Odisha,40,34,5,43,52,36,15,21,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+386,Khordha,21,Odisha,59,36,0,67,48,26,9,17,9,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+387,Puri,21,Odisha,68,45,0,74,84,78,36,42,36,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+388,Ganjam,21,Odisha,84,0,64,84,88,52,40,51,40,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+389,Gajapati,21,Odisha,31,0,28,34,37,13,6,13,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+390,Kandhamal,21,Odisha,17,14,18,29,0,10,2,8,2,2019;2020;2021;2022;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+391,Bauda,21,Odisha,44,26,29,50,0,60,27,33,27,2019;2020;2021;2022;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+392,Subarnapur,21,Odisha,49,35,34,49,96,55,25,30,25,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+393,Balangir,21,Odisha,79,41,56,64,118,67,53,58,53,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+394,Nuapada,21,Odisha,26,16,3,22,50,38,20,18,20,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+395,Kalahandi,21,Odisha,38,17,0,31,30,17,14,15,14,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+396,Rayagada,21,Odisha,22,10,0,16,27,3,2,2,2,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+397,Nabarangapur,21,Odisha,28,13,25,24,1,11,6,10,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+398,Koraput,21,Odisha,55,31,0,43,89,22,9,14,9,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+399,Malkangiri,21,Odisha,17,11,0,12,15,6,2,4,2,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+400,Koriya,22,Chhattisgarh,23,0,51,38,36,9,9,9,9,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,count_only
+401,Surguja,22,Chhattisgarh,72,0,90,74,62,28,28,28,28,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+402,Jashpur,22,Chhattisgarh,70,71,69,57,66,27,27,23,27,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+403,Raigarh,22,Chhattisgarh,95,124,120,101,107,23,23,23,23,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+404,Korba,22,Chhattisgarh,68,54,66,8,42,12,12,11,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+405,Janjgir-champa,22,Chhattisgarh,54,44,51,39,39,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,count_only
+406,Bilaspur,22,Chhattisgarh,109,75,81,58,66,13,13,13,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+407,Kabeerdham,22,Chhattisgarh,16,1,12,15,18,6,6,5,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,count_only
+408,Rajnandgaon,22,Chhattisgarh,63,6,43,50,49,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+409,Durg,22,Chhattisgarh,121,67,96,83,106,36,36,35,36,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+410,Raipur,22,Chhattisgarh,95,74,71,63,69,24,24,24,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+411,Mahasamund,22,Chhattisgarh,34,20,31,23,24,16,16,16,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+412,Dhamtari,22,Chhattisgarh,45,16,36,28,22,25,25,25,25,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+413,Uttar Bastar Kanker,22,Chhattisgarh,10,10,9,10,7,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,count_only
+414,Bastar,22,Chhattisgarh,25,28,27,20,19,16,16,16,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Cu;Zn,Mn;Pb;Ni;Cd;Cr,5,reportable
+415,Narayanpur,22,Chhattisgarh,0,0,0,1,1,0,0,0,0,2022;2023,2,False,NO3;F;EC;Cl;SO4;U;pH;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;TDS;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+416,Dakshin Bastar Dantewada,22,Chhattisgarh,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+417,Bijapur,22,Chhattisgarh,0,0,0,1,1,0,0,0,0,2022;2023,2,False,NO3;F;EC;Cl;SO4;U;pH;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;TDS;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,insufficient
+418,Sheopur,23,Madhya Pradesh,21,20,21,21,18,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+419,Morena,23,Madhya Pradesh,14,14,15,13,11,4,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+420,Bhind,23,Madhya Pradesh,19,19,19,18,16,3,3,3,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+421,Gwalior,23,Madhya Pradesh,20,20,19,25,25,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+422,Datia,23,Madhya Pradesh,10,10,10,8,7,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+423,Shivpuri,23,Madhya Pradesh,32,31,32,30,29,15,15,14,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+424,Tikamgarh,23,Madhya Pradesh,21,14,20,17,20,7,7,7,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+425,Chhatarpur,23,Madhya Pradesh,32,23,32,29,27,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+426,Panna,23,Madhya Pradesh,26,25,26,21,25,30,30,29,30,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+427,Sagar,23,Madhya Pradesh,34,30,42,33,40,21,21,21,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+428,Damoh,23,Madhya Pradesh,22,18,20,16,23,12,12,12,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+429,Satna,23,Madhya Pradesh,48,40,43,41,49,19,19,19,19,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+430,Rewa,23,Madhya Pradesh,31,24,24,22,29,21,21,21,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+431,Umaria,23,Madhya Pradesh,15,15,16,15,11,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+432,Neemuch,23,Madhya Pradesh,25,22,24,13,22,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+433,Mandsaur,23,Madhya Pradesh,24,24,24,14,23,15,15,15,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+434,Ratlam,23,Madhya Pradesh,29,28,32,24,26,15,15,3,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+435,Ujjain,23,Madhya Pradesh,28,19,24,20,25,23,23,17,23,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+436,Shajapur,23,Madhya Pradesh,27,28,32,26,28,21,21,19,21,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+437,Dewas,23,Madhya Pradesh,21,18,18,24,19,11,11,11,11,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+438,Dhar,23,Madhya Pradesh,26,26,25,25,27,17,17,17,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+439,Indore,23,Madhya Pradesh,21,5,22,22,22,8,8,8,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+440,West Nimar,23,Madhya Pradesh,21,19,22,20,23,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+441,Barwani,23,Madhya Pradesh,9,9,7,20,10,7,7,7,7,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+442,Rajgarh,23,Madhya Pradesh,20,17,21,20,14,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+443,Vidisha,23,Madhya Pradesh,28,27,27,29,26,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+444,Bhopal,23,Madhya Pradesh,25,26,23,26,24,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+445,Sehore,23,Madhya Pradesh,19,19,18,19,21,10,10,9,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+446,Raisen,23,Madhya Pradesh,27,26,24,28,21,9,9,7,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+447,Betul,23,Madhya Pradesh,28,26,27,28,30,17,17,17,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+448,Harda,23,Madhya Pradesh,12,12,12,12,12,5,5,3,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+449,Hoshangabad,23,Madhya Pradesh,18,19,19,19,20,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+450,Katni,23,Madhya Pradesh,17,14,16,16,9,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+451,Jabalpur,23,Madhya Pradesh,35,12,31,34,19,18,18,16,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+452,Narsimhapur,23,Madhya Pradesh,19,17,19,17,14,3,3,3,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+453,Dindori,23,Madhya Pradesh,14,9,14,14,13,13,13,13,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+454,Mandla,23,Madhya Pradesh,31,28,30,29,26,20,20,20,20,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+455,Chhindwara,23,Madhya Pradesh,38,28,32,38,36,19,19,19,19,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+456,Seoni,23,Madhya Pradesh,43,39,43,44,39,16,16,16,16,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+457,Balaghat,23,Madhya Pradesh,41,38,37,39,40,13,13,13,13,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+458,Guna,23,Madhya Pradesh,20,19,21,21,20,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+459,Ashoknagar,23,Madhya Pradesh,18,14,17,18,18,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+460,Shahdol,23,Madhya Pradesh,28,27,25,28,25,24,24,21,24,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+461,Anuppur,23,Madhya Pradesh,20,18,19,20,17,14,14,11,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+462,Sidhi,23,Madhya Pradesh,29,22,26,26,28,23,23,23,23,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+463,Singrauli,23,Madhya Pradesh,20,19,14,26,22,10,10,10,10,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+464,Jhabua,23,Madhya Pradesh,10,9,10,11,8,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+465,Alirajpur,23,Madhya Pradesh,12,10,12,13,4,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+466,East Nimar,23,Madhya Pradesh,30,26,28,30,31,17,17,17,17,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+467,Burhanpur,23,Madhya Pradesh,16,10,17,17,11,8,8,7,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+468,Kachchh,24,Gujarat,26,33,33,28,37,20,15,17,15,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,As;Pb;Ni;Cd,4,reportable
+469,Banas Kantha,24,Gujarat,12,12,9,8,16,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+470,Patan,24,Gujarat,5,6,7,6,10,5,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,As;Pb;Ni;Cd,4,count_only
+471,Mahesana,24,Gujarat,12,15,12,10,14,2,2,2,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+472,Sabar Kantha,24,Gujarat,37,42,38,30,42,46,23,25,23,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,reportable
+473,Gandhinagar,24,Gujarat,1,1,1,1,0,0,0,0,0,2019;2020;2021;2022,4,False,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+474,Ahmadabad,24,Gujarat,9,11,19,7,9,5,5,5,5,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+475,Surendranagar,24,Gujarat,18,17,36,16,56,21,18,17,18,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,reportable
+476,Rajkot,24,Gujarat,37,36,41,30,34,9,9,9,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+477,Jamnagar,24,Gujarat,40,55,42,32,69,19,19,17,19,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,reportable
+478,Porbandar,24,Gujarat,23,28,20,21,30,10,9,10,9,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+479,Junagadh,24,Gujarat,44,57,39,39,54,8,8,6,8,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+480,Amreli,24,Gujarat,27,40,26,25,37,6,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+481,Bhavnagar,24,Gujarat,21,32,21,21,31,3,2,3,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+482,Anand,24,Gujarat,10,9,11,10,12,4,3,3,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+483,Kheda,24,Gujarat,7,13,16,9,6,2,2,1,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+484,Panch Mahals,24,Gujarat,24,28,27,23,25,7,3,4,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+485,Dohad,24,Gujarat,18,22,17,15,14,4,2,2,2,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+486,Vadodara,24,Gujarat,39,28,18,11,20,8,6,8,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+487,Narmada,24,Gujarat,18,8,11,7,10,1,0,1,0,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+488,Bharuch,24,Gujarat,33,24,24,19,26,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+489,The Dangs,24,Gujarat,23,23,21,6,18,0,0,0,0,2019;2020;2021;2022;2023,5,False,NO3;F;EC;Cl;SO4;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Mn;Cu;Pb;Zn;Ni;Cd;Cr,9,insufficient
+490,Navsari,24,Gujarat,13,12,18,5,11,0,0,0,0,2019;2020;2021;2022;2023,5,False,NO3;F;EC;Cl;SO4;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Mn;Cu;Pb;Zn;Ni;Cd;Cr,9,insufficient
+491,Valsad,24,Gujarat,12,13,16,2,19,1,0,1,0,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+492,Surat,24,Gujarat,24,24,30,9,23,3,3,2,3,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,count_only
+493,Tapi,24,Gujarat,5,7,7,3,9,1,1,1,1,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Zn;Cr,Pb;Ni;Cd,3,insufficient
+494,Diu,25,Daman & Diu,1,3,0,0,3,1,1,1,1,2019;2020;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Zn;Cr,SiO2;Pb;Ni;Cd,4,insufficient
+495,Daman,25,Daman & Diu,4,2,2,0,4,0,0,0,0,2019;2020;2021;2023,4,False,NO3;F;EC;Cl;SO4;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;SiO2,U;As;PO4;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+496,Dadra & Nagar Haveli,26,Dadara & Nagar Havelli,12,0,0,14,10,0,0,0,0,2019;2022;2023,3,False,NO3;F;EC;Cl;SO4;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+497,Nandurbar,27,Maharashtra,12,0,0,17,23,13,10,5,10,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+498,Dhule,27,Maharashtra,23,0,0,31,36,27,21,18,21,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+499,Jalgaon,27,Maharashtra,34,0,0,49,52,33,25,17,24,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+500,Buldana,27,Maharashtra,22,0,0,41,71,61,51,24,38,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+501,Akola,27,Maharashtra,14,0,0,21,26,20,16,10,16,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+502,Washim,27,Maharashtra,15,0,0,33,48,21,13,12,13,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+503,Amravati,27,Maharashtra,54,0,0,49,77,40,30,31,30,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+504,Wardha,27,Maharashtra,39,0,0,59,53,49,29,34,29,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+505,Nagpur,27,Maharashtra,63,81,64,70,71,58,41,28,40,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+506,Bhandara,27,Maharashtra,22,0,0,28,29,23,21,11,21,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+507,Gondiya,27,Maharashtra,14,0,0,16,18,17,16,8,16,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+508,Garhchiroli,27,Maharashtra,24,0,0,34,37,28,22,17,22,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+509,Chandrapur,27,Maharashtra,41,0,0,46,55,41,40,21,40,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+510,Yavatmal,27,Maharashtra,37,0,0,66,68,58,39,31,39,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+511,Nanded,27,Maharashtra,41,0,0,47,46,35,25,18,25,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+512,Hingoli,27,Maharashtra,21,0,0,29,25,14,10,8,10,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+513,Parbhani,27,Maharashtra,18,0,0,35,36,28,20,14,20,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+514,Jalna,27,Maharashtra,15,0,0,35,43,33,22,19,22,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+515,Aurangabad,27,Maharashtra,15,0,0,37,40,29,16,23,11,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+516,Nashik,27,Maharashtra,55,0,0,65,71,56,41,40,41,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+517,Thane,27,Maharashtra,36,0,0,44,56,19,17,17,17,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+518,Mumbai Suburban,27,Maharashtra,12,0,0,8,15,18,18,17,0,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,insufficient
+519,Mumbai,27,Maharashtra,7,0,0,4,7,9,7,8,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,count_only
+520,Raigarh,27,Maharashtra,5,0,0,34,50,17,16,16,16,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+521,Pune,27,Maharashtra,34,35,40,35,53,43,18,41,14,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+522,Ahmadnagar,27,Maharashtra,52,0,0,59,78,54,47,33,47,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+523,Bid,27,Maharashtra,40,0,0,51,64,30,19,23,19,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+524,Latur,27,Maharashtra,22,0,0,22,24,25,19,9,19,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+525,Osmanabad,27,Maharashtra,18,0,0,21,24,17,10,9,10,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+526,Solapur,27,Maharashtra,24,0,0,31,33,30,26,15,26,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+527,Satara,27,Maharashtra,36,0,0,49,54,24,18,14,18,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+528,Ratnagiri,27,Maharashtra,59,0,0,56,54,23,23,0,22,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+529,Sindhudurg,27,Maharashtra,49,0,0,48,53,17,17,0,17,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+530,Kolhapur,27,Maharashtra,40,0,0,36,40,12,11,2,11,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+531,Sangli,27,Maharashtra,33,0,0,38,37,32,23,24,23,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,PO4;SiO2,2,reportable
+532,Adilabad,28,Andhra Pradesh,28,0,0,89,154,57,57,48,57,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+533,Nizamabad,28,Andhra Pradesh,11,0,0,58,64,20,20,19,20,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+534,Karimnagar,28,Andhra Pradesh,23,0,0,77,100,36,36,36,36,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+535,Medak,28,Andhra Pradesh,43,0,58,114,132,54,54,53,54,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+536,Hyderabad,28,Andhra Pradesh,11,0,20,22,24,15,15,8,15,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+537,Rangareddy,28,Andhra Pradesh,33,0,61,99,116,55,53,42,53,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+538,Mahbubnagar,28,Andhra Pradesh,54,0,0,131,142,70,61,65,61,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+539,Nalgonda,28,Andhra Pradesh,61,0,0,108,156,57,57,49,57,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+540,Warangal,28,Andhra Pradesh,42,0,0,87,120,39,39,36,39,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+541,Khammam,28,Andhra Pradesh,39,0,0,81,151,23,23,22,23,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+542,Srikakulam,28,Andhra Pradesh,48,0,0,55,58,13,13,13,13,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+543,Vizianagaram,28,Andhra Pradesh,47,0,0,62,61,22,22,22,22,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+544,Visakhapatnam,28,Andhra Pradesh,58,0,54,67,67,18,18,18,18,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+545,East Godavari,28,Andhra Pradesh,78,0,0,84,86,25,25,25,25,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+546,West Godavari,28,Andhra Pradesh,50,0,0,54,50,12,12,12,12,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+547,Krishna,28,Andhra Pradesh,54,0,0,71,99,31,31,31,31,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+548,Guntur,28,Andhra Pradesh,74,0,0,90,118,49,49,49,49,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+549,Prakasam,28,Andhra Pradesh,27,0,0,89,123,47,47,47,47,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+550,Sri Potti Sriramulu Nellore,28,Andhra Pradesh,28,0,0,49,63,15,15,15,15,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+551,Y.s.r.,28,Andhra Pradesh,32,0,0,74,113,27,27,27,27,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+552,Kurnool,28,Andhra Pradesh,28,0,0,52,53,12,12,12,12,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+553,Anantapur,28,Andhra Pradesh,30,0,0,100,147,36,36,36,36,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+554,Chittoor,28,Andhra Pradesh,30,0,0,74,101,22,22,22,22,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,U;As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,11,reportable
+555,Belgaum,29,Karnataka,55,57,0,72,35,47,43,47,39,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+556,Bagalkot,29,Karnataka,14,0,0,23,7,15,15,15,15,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+557,Bijapur,29,Karnataka,37,0,0,51,33,34,30,34,30,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,reportable
+558,Bidar,29,Karnataka,15,0,0,12,7,9,9,9,8,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+559,Raichur,29,Karnataka,23,0,0,23,20,33,31,33,17,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+560,Koppal,29,Karnataka,12,0,0,19,12,20,18,15,16,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+561,Gadag,29,Karnataka,5,0,0,8,19,18,14,17,14,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+562,Dharwad,29,Karnataka,5,0,0,13,9,8,8,8,8,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2,U;As;Fe;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,count_only
+563,Uttara Kannada,29,Karnataka,63,0,0,61,24,22,22,22,2,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+564,Haveri,29,Karnataka,7,0,0,19,5,10,10,10,9,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+565,Bellary,29,Karnataka,23,0,0,9,15,14,11,12,8,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+566,Chitradurga,29,Karnataka,9,0,0,11,19,10,10,9,10,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+567,Davanagere,29,Karnataka,35,0,0,12,24,12,12,12,8,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+568,Shimoga,29,Karnataka,61,0,0,67,23,15,14,14,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+569,Udupi,29,Karnataka,73,0,0,51,11,10,10,10,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+570,Chikmagalur,29,Karnataka,36,0,0,55,4,7,6,6,4,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+571,Tumkur,29,Karnataka,17,0,0,23,19,20,15,11,12,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+572,Bangalore,29,Karnataka,11,15,0,10,3,6,5,6,4,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+573,Mandya,29,Karnataka,30,29,0,40,22,29,20,28,20,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+574,Hassan,29,Karnataka,41,0,0,66,6,10,10,10,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+575,Dakshina Kannada,29,Karnataka,84,0,0,60,4,6,6,6,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+576,Kodagu,29,Karnataka,42,0,0,43,3,2,2,2,1,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+577,Mysore,29,Karnataka,27,0,0,33,23,22,19,15,18,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+578,Chamrajnagar,29,Karnataka,6,0,0,9,5,4,4,4,3,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+579,Gulbarga,29,Karnataka,32,0,0,27,21,22,22,22,19,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+580,Yadgir,29,Karnataka,14,0,0,7,10,8,8,8,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+581,Kolar,29,Karnataka,16,20,0,15,25,18,15,16,15,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable
+582,Chikkaballapura,29,Karnataka,6,4,0,6,9,5,5,5,5,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+583,Bangalore Rural,29,Karnataka,8,6,0,6,9,7,7,6,6,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+584,Ramanagara,29,Karnataka,11,15,0,18,6,6,6,1,6,2019;2020;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+585,North Goa,30,Goa,46,0,0,0,7,7,7,7,2,2019;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,insufficient
+586,South Goa,30,Goa,25,0,0,0,9,1,1,1,0,2019;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+587,Lakshadweep,31,Lakshadweep,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+588,Kasaragod,32,Kerala,20,0,21,21,22,43,43,11,43,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+589,Kannur,32,Kerala,22,0,22,21,23,54,54,15,54,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+590,Wayanad,32,Kerala,17,0,20,16,17,36,36,10,36,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+591,Kozhikode,32,Kerala,23,0,27,23,23,42,42,14,42,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+592,Malappuram,32,Kerala,33,0,34,33,31,33,33,19,33,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+593,Palakkad,32,Kerala,32,0,32,23,32,61,61,23,61,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+594,Thrissur,32,Kerala,28,0,1,28,25,43,43,13,43,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+595,Ernakulam,32,Kerala,30,0,29,28,26,25,25,14,25,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+596,Idukki,32,Kerala,21,0,40,20,20,41,41,10,41,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+597,Kottayam,32,Kerala,25,0,30,25,28,23,23,8,23,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+598,Alappuzha,32,Kerala,28,0,30,21,23,37,37,12,37,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+599,Pathanamthitta,32,Kerala,18,0,18,14,18,37,37,8,37,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+600,Kollam,32,Kerala,24,0,24,25,24,25,25,10,25,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+601,Thiruvananthapuram,32,Kerala,30,0,23,22,30,45,45,18,45,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Ni,SiO2;Pb;Zn;Cd;Cr,5,reportable
+602,Thiruvallur,33,Tamil Nadu,50,47,54,49,47,12,6,6,6,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+603,Chennai,33,Tamil Nadu,22,17,17,15,10,4,4,4,4,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+604,Kancheepuram,33,Tamil Nadu,56,47,69,84,63,12,12,12,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+605,Vellore,33,Tamil Nadu,49,2,42,10,8,12,12,12,12,2019;2020;2021;2022;2023;2024,6,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+606,Tiruvannamalai,33,Tamil Nadu,34,0,32,32,29,7,7,7,7,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+607,Viluppuram,33,Tamil Nadu,67,0,9,53,52,10,10,10,10,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+608,Salem,33,Tamil Nadu,57,0,47,46,37,15,15,14,15,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+609,Namakkal,33,Tamil Nadu,51,0,1,45,44,17,17,17,17,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+610,Erode,33,Tamil Nadu,71,0,0,60,61,20,20,20,20,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+611,The Nilgiris,33,Tamil Nadu,0,0,0,7,7,3,2,2,2,2022;2023;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,insufficient
+612,Dindigul,33,Tamil Nadu,57,0,41,52,41,20,20,20,20,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+613,Karur,33,Tamil Nadu,4,0,0,16,15,7,7,6,7,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+614,Tiruchirappalli,33,Tamil Nadu,39,0,0,42,41,11,11,10,11,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+615,Perambalur,33,Tamil Nadu,22,0,0,18,16,6,6,6,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+616,Ariyalur,33,Tamil Nadu,18,0,0,19,18,5,5,5,5,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+617,Cuddalore,33,Tamil Nadu,58,0,32,65,48,14,14,14,14,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+618,Nagappattinam,33,Tamil Nadu,19,0,0,17,17,7,7,7,7,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+619,Thiruvarur,33,Tamil Nadu,6,0,0,6,6,0,0,0,0,2019;2022;2023,3,False,NO3;F;EC;Cl;SO4;U;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K,As;Fe;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,10,insufficient
+620,Thanjavur,33,Tamil Nadu,15,0,0,14,13,5,5,5,5,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+621,Pudukkottai,33,Tamil Nadu,33,0,1,35,19,5,5,5,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+622,Sivaganga,33,Tamil Nadu,25,0,0,17,8,6,6,6,6,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+623,Madurai,33,Tamil Nadu,54,0,28,37,31,7,7,7,7,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+624,Theni,33,Tamil Nadu,43,0,37,40,34,8,8,8,8,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+625,Virudunagar,33,Tamil Nadu,25,0,32,38,31,12,12,12,12,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+626,Ramanathapuram,33,Tamil Nadu,27,0,1,18,17,6,6,6,6,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+627,Thoothukkudi,33,Tamil Nadu,31,0,31,41,28,10,10,9,10,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+628,Tirunelveli,33,Tamil Nadu,49,0,62,69,29,12,11,11,11,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+629,Kanniyakumari,33,Tamil Nadu,17,0,19,21,17,5,5,5,5,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+630,Dharmapuri,33,Tamil Nadu,26,0,24,30,29,18,18,11,18,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+631,Krishnagiri,33,Tamil Nadu,32,0,34,34,32,10,10,10,10,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+632,Coimbatore,33,Tamil Nadu,66,0,0,38,36,13,13,12,13,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+633,Tiruppur,33,Tamil Nadu,65,0,1,54,32,16,15,14,15,2019;2021;2022;2023;2024,5,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,reportable
+634,Yanam,34,Puducherry,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+635,Puducherry,34,Puducherry,6,0,0,12,4,4,4,4,4,2019;2022;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+636,Mahe,34,Puducherry,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+637,Karaikal,34,Puducherry,1,0,0,4,0,3,3,3,3,2019;2022;2024,3,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;Mn;Cu;Pb;Zn;Ni;Cd;Cr,SiO2,1,count_only
+638,Nicobar,35,Andaman & Nicobar Island,0,0,0,0,0,0,0,0,0,,0,False,,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,26,insufficient
+639,North & Middle Andaman,35,Andaman & Nicobar Island,34,0,38,0,38,4,4,4,4,2019;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,count_only
+640,South Andaman,35,Andaman & Nicobar Island,61,0,71,0,75,25,25,25,25,2019;2021;2023;2024,4,True,NO3;F;EC;Cl;SO4;U;As;Fe;pH;TDS;CO3;HCO3;PO4;TH;Ca;Mg;Na;K;SiO2;Mn;Cu;Pb;Zn;Ni;Cd;Cr,,0,reportable

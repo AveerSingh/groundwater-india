@@ -1,0 +1,96 @@
+# T2: every observed raw state string -> Census 2011 state.
+# st_code is ST_CEN_CD from data/external/boundaries/2011_Dist.shp, zero-padded.
+# `state` is the clean display name for the 2011 unit (the shapefile spells some
+# names oddly; joins use st_code, never names). `state_now` is the present-day
+# state where it differs, for display only.
+# 02_reconcile_names.py fails on any raw string not listed here.
+
+"Jammu & Kashmir":   {state: "Jammu & Kashmir", st_code: "01"}
+"Jammu and Kashmir": {state: "Jammu & Kashmir", st_code: "01"}
+"J&K":               {state: "Jammu & Kashmir", st_code: "01"}
+
+"Himachal Pradesh":  {state: "Himachal Pradesh", st_code: "02"}
+"Himanchal Pradesh": {state: "Himachal Pradesh", st_code: "02"}
+"HP":                {state: "Himachal Pradesh", st_code: "02"}
+
+"Punjab":            {state: "Punjab", st_code: "03"}
+
+"Chandigarh":        {state: "Chandigarh", st_code: "04"}
+"Chandigarh UT":     {state: "Chandigarh", st_code: "04"}
+"Chandigarh Ut":     {state: "Chandigarh", st_code: "04"}
+
+"Uttarakhand":       {state: "Uttarakhand", st_code: "05"}
+"Uttrakhand":        {state: "Uttarakhand", st_code: "05"}
+
+"Haryana":           {state: "Haryana", st_code: "06"}
+
+"Delhi":             {state: "Delhi", st_code: "07"}
+"New Delhi":         {state: "Delhi", st_code: "07"}   # state label in source; district resolved separately
+
+"Rajasthan":         {state: "Rajasthan", st_code: "08"}
+"RAJASTHAN":         {state: "Rajasthan", st_code: "08"}
+
+"Uttar Pradesh":     {state: "Uttar Pradesh", st_code: "09"}
+"U P":               {state: "Uttar Pradesh", st_code: "09"}
+"U.P":               {state: "Uttar Pradesh", st_code: "09"}
+"UP":                {state: "Uttar Pradesh", st_code: "09"}
+
+"Bihar":             {state: "Bihar", st_code: "10"}
+")Bihar":            {state: "Bihar", st_code: "10"}   # stray character in source
+
+"Arunachal Pradesh": {state: "Arunachal Pradesh", st_code: "12"}
+"Nagaland":          {state: "Nagaland", st_code: "13"}
+"Manipur":           {state: "Manipur", st_code: "14"}
+"Mizoram":           {state: "Mizoram", st_code: "15"}
+"Tripura":           {state: "Tripura", st_code: "16"}
+"Meghalaya":         {state: "Meghalaya", st_code: "17"}
+"Assam":             {state: "Assam", st_code: "18"}
+
+"West Bengal":       {state: "West Bengal", st_code: "19"}
+"WB":                {state: "West Bengal", st_code: "19"}
+
+"Jharkhand":         {state: "Jharkhand", st_code: "20"}
+
+"Odisha":            {state: "Odisha", st_code: "21"}
+"ODISHA":            {state: "Odisha", st_code: "21"}
+"Orissa":            {state: "Odisha", st_code: "21"}
+
+"Chhattisgarh":      {state: "Chhattisgarh", st_code: "22"}
+
+"Madhya Pradesh":    {state: "Madhya Pradesh", st_code: "23"}
+"M P":               {state: "Madhya Pradesh", st_code: "23"}
+"MP":                {state: "Madhya Pradesh", st_code: "23"}
+
+"Gujarat":           {state: "Gujarat", st_code: "24"}
+"GUJARAT":           {state: "Gujarat", st_code: "24"}
+
+"Daman And Diu":     {state: "Daman & Diu", st_code: "25", state_now: "Dadra & Nagar Haveli and Daman & Diu"}
+"Diu":               {state: "Daman & Diu", st_code: "25", state_now: "Dadra & Nagar Haveli and Daman & Diu"}   # district written in state column
+
+"Dadra And Nagar Haveli": {state: "Dadra & Nagar Haveli", st_code: "26", state_now: "Dadra & Nagar Haveli and Daman & Diu"}
+"Dadra And Nagar Hav":    {state: "Dadra & Nagar Haveli", st_code: "26", state_now: "Dadra & Nagar Haveli and Daman & Diu"}
+"DADRA AND NAGAR":        {state: "Dadra & Nagar Haveli", st_code: "26", state_now: "Dadra & Nagar Haveli and Daman & Diu"}
+
+"Maharashtra":       {state: "Maharashtra", st_code: "27"}
+"MAHARASHTRA":       {state: "Maharashtra", st_code: "27"}
+
+"Andhra Pradesh":    {state: "Andhra Pradesh", st_code: "28"}
+"A.P.":              {state: "Andhra Pradesh", st_code: "28"}
+"Telangana":         {state: "Andhra Pradesh", st_code: "28", state_now: "Telangana"}   # formed 2014 from 2011 AP districts
+
+"Karnataka":         {state: "Karnataka", st_code: "29"}
+"KARNATAKA":         {state: "Karnataka", st_code: "29"}
+
+"Goa":               {state: "Goa", st_code: "30"}
+
+"Kerala":            {state: "Kerala", st_code: "32"}
+
+"Tamil Nadu":        {state: "Tamil Nadu", st_code: "33"}
+"TAMIL NADU":        {state: "Tamil Nadu", st_code: "33"}
+"Tamilnadu":         {state: "Tamil Nadu", st_code: "33"}
+
+"Pondicherry":       {state: "Puducherry", st_code: "34"}
+"UT of Puducherry":  {state: "Puducherry", st_code: "34"}
+
+"A&N Islands":               {state: "Andaman & Nicobar Islands", st_code: "35"}
+"Andaman & Nicobar Islands": {state: "Andaman & Nicobar Islands", st_code: "35"}

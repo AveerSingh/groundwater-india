@@ -1,0 +1,82 @@
+primary_year: 2024
+primary_season: pre
+boundary_vintage: census_2011
+
+# SPEC §12.1, decided and frozen 2026-11-07 (Aveer). Never tune to improve the map.
+reporting_thresholds:
+  reportable: 10      # n >= 10 : show a percentage
+  count_only: 3       # 3 <= n < 10 : show "x of y wells", no percentage
+  # n < 3 : "insufficient monitoring", rendered as hatch, no value
+
+persistence_min_years: 4
+site_key_decimals: 3
+
+coord_bounds: {lat_min: 6, lat_max: 38, lon_min: 68, lon_max: 98}
+cbe_flag_pct: 10
+
+raw_files:
+  pattern: "data/raw/all_india_long_{year}_coords_fixed.csv"
+  years: [2019, 2020, 2021, 2022, 2023, 2024]
+  encoding: utf-8-sig
+
+# Expected raw facts (SPEC §2.1). Tests assert these.
+expected_rows: {2019: 13522, 2020: 6976, 2021: 8937, 2022: 13527, 2023: 16765, 2024: 15189}
+expected_rows_2024_by_season: {pre: 7794, post: 7395}
+# SPEC §2.1 calls these "rows carrying no measurement at all". They are rows with no
+# major-ion value; most still carry trace metals, so T1 keeps them, flagged no_major_ions.
+expected_no_major_ion_rows: {2019: 0, 2020: 13, 2021: 0, 2022: 0, 2023: 1513, 2024: 1061}
+
+# SPEC §2.2: stations with a reported value, pre-monsoon, rows with major ions only.
+# "Reported" = numeric (including values later nulled as negative/extreme) or "<x".
+expected_param_counts_pre:
+  NO3: {2019: 11966, 2020: 6548, 2021: 8936, 2022: 13527, 2023: 15252, 2024: 7281}
+  F:   {2019: 13206, 2020: 6720, 2021: 8890, 2022: 13527, 2023: 15252, 2024: 7281}
+  U:   {2021: 2894, 2023: 9922, 2024: 4869}
+  As:  {2023: 5551, 2024: 4586}
+  Fe:  {2023: 6312, 2024: 5018}
+
+# Non-parameter columns. Same regex rules as params.yml.
+meta_columns:
+  well_id:  {column_regex: '^(well[ _]?id|gems_id)', years: [2019, 2020, 2021, 2022]}
+  state:    {column_regex: '^state', years: [2019, 2020, 2021, 2022, 2023, 2024]}
+  district: {column_regex: '^district', years: [2019, 2020, 2021, 2022, 2023, 2024]}
+  block:    {column_regex: '^(block|taluka)', years: [2019, 2020, 2021, 2022, 2024]}
+  location: {column_regex: '^(village|site|location|station name)', years: [2019, 2020, 2021, 2022, 2023, 2024]}
+  lat:      {column_regex: '^latitude', years: [2019, 2020, 2021, 2022, 2023, 2024]}
+  lon:      {column_regex: '^longitude', years: [2019, 2020, 2021, 2022, 2023, 2024]}
+  season:   {column_regex: '^season', years: [2024]}
+
+season_values:
+  pre-monsoon: pre
+  post-monsoon: post
+
+# T3 finding: coordinates written as degrees.minutes (DD.MM) but stored as decimal
+# degrees. Present in CGWB's own files, before any project cleaning. Converted only
+# where both components are valid as DD.MMSS (minutes and seconds < 60); flagged
+# coord_converted:dms. Detection evidence in docs/METHOD.md (T3).
+coord_dms_groups:
+  - {state_code: "20", years: [2019, 2020, 2021, 2022]}   # Jharkhand
+
+# T2/T3 finding: states whose district names cannot be matched to 2011 polygons,
+# so every row is placed by coordinates within the state (method `spatial`).
+spatial_states:
+  "07": "Delhi's districts were redrawn in 2012 and kept most old names; source names describe post-2012 boundaries."
+
+# SPEC §12.3, decided 2026-11-07 (Aveer): aggregate by the coordinate district when
+# the well is at least min_km outside its named district and the coordinate district
+# is in the same state. district_code_name keeps the name match.
+coord_reassign:
+  min_km: 2.0
+  same_state_only: true
+
+# T5 aggregation rules, decided 2026-11-07 (Aveer).
+aggregation:
+  # A well is "tested" for a parameter if it has a value, a below-detection result
+  # (BDL/ND/nil/traces/"<x"), or a negative reading (near-zero instrument value).
+  # Below-detection and negative readings count as tested, not exceeding.
+  below_detection_counts_as_tested: true
+  negative_counts_as_below_detection: true
+  # IS 10500: sulphate's 400 mg/L permissible limit applies only where Mg <= 30 mg/L;
+  # above that, the permissible limit is the acceptable limit (200). Unknown Mg -> 400.
+  sulphate_mg_condition: true
+  exclude_flags: [coord_invalid, duplicate_copy]   # SPEC T5; identical copies counted once
